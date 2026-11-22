@@ -1,0 +1,21 @@
+name: replace-index
+on:
+  push:
+    paths:
+      - .github/workflows/replace-index.yml
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace index.html and clean up
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mv 1-index-new.html index.html
+          rm -f .github/workflows/replace-index.yml
+          git add -A
+          git commit -m "Unified design, placeholder cleanup, richer Operations Analyst entry"
+          git push
