@@ -1,0 +1,27 @@
+name: organize-assets
+on:
+  push:
+    paths:
+      - .github/workflows/organize.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reorganize assets
+        run: |
+          set -e
+          unzip -oq 1-portfolio-assets.zip -d /tmp/assets
+          mkdir -p files
+          git mv AI-Impact-on-Future-Healthcare.pdf Carbon-Tax.pdf Employee-Data-Cleaning-Case-Study.pdf Energy-Diversification-for-Economic-Stability.pdf Financial-Inclusion-and-Fintech.pdf Islamic-Banking-Products-Research.pdf Mobile-Payment-and-the-Informal-Sector-in-Egypt.pdf Power-Pivot-Link-Tables-with-Relationships.pdf Rakeeza-Pitch-Deck.pdf Sales-Data-Cleaning-Power-Query.pdf Sustainable-Urbanization.pdf files/
+          cp -r /tmp/assets/slides .
+          cp /tmp/assets/index.html .
+          git rm -q 1-portfolio-assets.zip Data .github/workflows/organize.yml
+          git config user.name "YoussefSayed025"
+          git config user.email "yossefsayed025@gmail.com"
+          git add -A
+          git commit -m "Organize project assets: slide previews, PDFs in files, updated index"
+          git push
