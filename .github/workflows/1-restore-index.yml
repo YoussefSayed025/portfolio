@@ -1,0 +1,21 @@
+name: Restore index.html
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  restore:
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore index.html from parent commit 73f40b9
+        run: |
+          git checkout 73f40b974e4d679718c48e068db4ead88c8a6246 -- index.html
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Restore index.html from 73f40b9 (e421d2f accidentally emptied it)"
+          git push
