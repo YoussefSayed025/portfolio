@@ -1,0 +1,18 @@
+name: tmp-fix-links
+on:
+  push:
+    paths: ['.github/workflows/tmp-fix-links.yml']
+permissions:
+  contents: write
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sed -i 's|href="../index.html|href="../../index.html|g' projects/bicycle-sales/index.html projects/coffee-sales/index.html projects/hr-trends/index.html projects/profit-returns/index.html
+      - run: |
+          git config user.name 'YoussefSayed025'
+          git config user.email 'youssefsayed025@users.noreply.github.com'
+          git add -A
+          git commit -m "Fix back links on project pages"
+          git push
