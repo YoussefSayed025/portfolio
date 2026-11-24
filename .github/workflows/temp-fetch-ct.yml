@@ -1,0 +1,65 @@
+name: temp-fetch-ct
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download files
+        run: |
+          set -euo pipefail
+          dl() { curl -sL --retry 3 "https://drive.google.com/uc?export=download&id=$1" -o "$2"; }
+          mkdir -p files slides/critical-thinking slides/green-urbanism-paper slides/green-urbanism-kufa
+          dl 1TeLlQgYMerdPoJcQCycz_X5YalZoaY2s "files/استخدام مهارات الحل النقدي للمشكلات في اقتراح حلول ايجابية لمواجهة الازمات.pdf"
+          dl 1I8gADLyagfZUwMyz_pnimXKKyjW9vQuc slides/critical-thinking/01.webp
+          dl 1vikukgc5sP4taRes-3LKh_HBWE-v84tc slides/critical-thinking/02.webp
+          dl 1uX2Y-C2QMOMsADNdbR77cdoLN9uPDiI3 slides/critical-thinking/03.webp
+          dl 1Lnh2TV416tncYvM2t4O6Es8LSbam9zWr slides/critical-thinking/04.webp
+          dl 1D5P2BH6sDhba8OzexmJs8tEJhNlTY4-u slides/critical-thinking/05.webp
+          dl 1M5cM7NqUYryvYekcnk6y3U_88TIUxxmL slides/critical-thinking/06.webp
+          dl 1M167_n9pTL03WOL3uqKgbVhp3aJ6Wvkv slides/critical-thinking/07.webp
+          dl 1ZG3DRhWngTorwKtLEgYbCssymz1llcJj slides/critical-thinking/08.webp
+          dl 1ASk-5JakFUjzXp3waoGKV1k7Ismqss7a slides/critical-thinking/09.webp
+          dl 1qEMhSHXjFBbP7UD7VhmiaXn6matSr7kf slides/critical-thinking/10.webp
+          dl 1KADZChSeoKPmq7ZfNgCdsFLeUpKjX0H8 slides/critical-thinking/11.webp
+          dl 1UjzajrFtXeafydwFxmIyNKl0tdoQXp2g slides/critical-thinking/12.webp
+          dl 1Nryc8tTu1RjD4lGC6ZoDhxqan1JY7Z8K slides/critical-thinking/13.webp
+          dl 1lBJzUWfUUsfSFt_Njt6MeG3hhp3Y1VcT slides/critical-thinking/14.webp
+          dl 1abMFOPtV7vEPy2c1vZi4iqZcF2rMBgqw slides/critical-thinking/15.webp
+          dl 14FYs9bTpFkO5vnTuvNsqWn8j-TGU8ZVL slides/critical-thinking/16.webp
+          dl 1c1uN-etoX00vnGqeERQmeJSFKumXrteh "files/تلخيص بحث - إمكانية تطبيق مبادئ التحضر الأخضر كمنطلق لاستدامة نمو المدن.pdf"
+          dl 1haTkYH9nasYDDhMG0jx8gA4bm3kmSWiC slides/green-urbanism-paper/01.webp
+          dl 1gt5Ixnk1zrNOA5ZY-BsewBkI5BP4emhC slides/green-urbanism-paper/02.webp
+          dl 1rFlWebkXmrSW2-BU_FJyL2tCpFn4Nv5x slides/green-urbanism-paper/03.webp
+          dl 1SDmwmv0O7XCtzUhUyIVyQ2Rjzlt0yTYb slides/green-urbanism-paper/04.webp
+          dl 1IvlLYMu6-0H9Q3KcxO0McpYxldLtbysv slides/green-urbanism-paper/05.webp
+          dl 1zmEDAoC4DQg9TN6WrBFYSr1UEfcjbqsJ slides/green-urbanism-paper/06.webp
+          dl 1s12PXE4WczOgfrAJWA-rhTmG8UGR5X9T "files/إمكانية تطبيق مبادئ التحضر الأخضر كمنطلق لاستدامة نمو المدن.pdf"
+          dl 1wHGz9eHF0Vcjdcx5vq5Dv3XpZZPqmiFf slides/green-urbanism-kufa/01.webp
+          dl 1c8S4OvqJ2YiI4SNx2Ho5W90-fUTb6cde slides/green-urbanism-kufa/02.webp
+          dl 1gaZLzTyPes3UWkOqrD5MT9YBmUMcIheJ slides/green-urbanism-kufa/03.webp
+          dl 1oH6th8itCX08pOKy9Lur4qnrd45Hd0yp slides/green-urbanism-kufa/04.webp
+          dl 144JwmNMMaJGEYZDAZLBLxN34MOix51cE slides/green-urbanism-kufa/05.webp
+          dl 17XdbEK7JLfbrMlIOCJ2aKIpiqAI92_KW slides/green-urbanism-kufa/06.webp
+          dl 1Z72eLC7IWccLnAjKG6hqQ7CZ1bjg-uyK slides/green-urbanism-kufa/07.webp
+          dl 1SugZK5Hk3Au42Es6HXXxMSLLuFMGjEKP slides/green-urbanism-kufa/08.webp
+          dl 1v7qdbvHz1QLLwLB7X4HYKZ04vquaLchW slides/green-urbanism-kufa/09.webp
+          dl 1YU_nJKEmovffaUD8Q-gcMjorfcbrDOfN slides/green-urbanism-kufa/10.webp
+          dl 1bndlX3j1whdetA9udusbp-6LFm5Bh5tD slides/green-urbanism-kufa/11.webp
+          dl 1oN1AdLXu5fYQyAVYsoGpaTH0DBDJTxGP slides/green-urbanism-kufa/12.webp
+          dl 1nWtoPCdBl-LuJ10TdD57lbeWzAACtuC7 slides/green-urbanism-kufa/13.webp
+          dl 1AN3etFh2Qxaunx9zipexIK1zutocH5va slides/green-urbanism-kufa/14.webp
+          dl 1jyqMMTSDouSsXfh7ZtiFSK3Z1ManXqk5 slides/green-urbanism-kufa/15.webp
+          dl 1NJT6C4wbKGTPyyaJpDuVohBGjX2vY6cx index.html
+          ls -la files slides/critical-thinking slides/green-urbanism-paper slides/green-urbanism-kufa
+          head -c 80 index.html
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add critical thinking paper, green urbanism paper and Kufa presentation"
+          git push
