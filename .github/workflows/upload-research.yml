@@ -1,0 +1,54 @@
+name: upload-research-files
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/upload-research.yml'
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download files and commit
+        run: |
+          mkdir -p files slides/research-proposal slides/efinance-analysis
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1Dr-Xda-9FbyQADtd9t7zp9bJIOrghNXT' -o 'index.html'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=18QjrqMNFIVdJx3S7AbC97FXXDS8cICOq' -o 'files/Mobile-Payments-Financial-Inclusion-Research-Proposal.pdf'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1xMfDSV1RQ802g_xVTDu3_F6ZdiasHDeB' -o 'files/EFinance-Financial-Ratio-Analysis.pdf'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1sk5c3eI5Mq8locmMoICUgE3J_bKppCsy' -o 'slides/research-proposal/01.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1YQYOzeTAiXcAUW7avdfPahDD1MOcWrce' -o 'slides/research-proposal/02.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1wy1H3OxeXF_NynsSJrqkZqu7Omlr91DM' -o 'slides/research-proposal/03.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=11LkkhAG070xh2EXo97VoLWXawAxnY7W5' -o 'slides/research-proposal/04.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1a3uU-KL14O263Wqr0OVztpamZu_Su9jf' -o 'slides/research-proposal/05.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1b29mUXZDIjz5mMtEAQp2NQ-C15mygxqR' -o 'slides/research-proposal/06.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1cPAh3oPYFlSwx4CG-Xxy38zYLf5uyJgM' -o 'slides/research-proposal/07.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1suXmvXR5O00Y4UVLlFfxlfKq7UKtdEzL' -o 'slides/research-proposal/08.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1jUaipVk9e526tuBmr7lM4c3sW1ys-_7f' -o 'slides/research-proposal/09.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1CtpC_UnoH3qFETsXEIj8lefsjlLg3pEU' -o 'slides/research-proposal/10.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=10qNLXKs4UAPWo-BkcII4qGr2VIbYmL9z' -o 'slides/research-proposal/11.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1QfPeN4veQiPKkCjcltjghKoFPkflqt4-' -o 'slides/research-proposal/12.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1prnGnvS3JjXeoNTPyluc21gGf3Nmwj8f' -o 'slides/research-proposal/13.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1CV6Iaw_YjiHJNL0RdhTCEEOuz9Kc-TFz' -o 'slides/research-proposal/14.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=142vVMPykBWcVrP5xsA4ZiJPahAQpdgNm' -o 'slides/research-proposal/15.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=19t0qNI25EYkyZ1TwbsgQmxLfKAtALbOS' -o 'slides/research-proposal/16.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1zCqUarwyz7YT9IOB8bIhn8FmyxsL7sJW' -o 'slides/research-proposal/17.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1XP6sttJBSJl8Rf8k3l5bAmQavPm3hex2' -o 'slides/research-proposal/18.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1mIM0HkSaYxpICtrt-rO1zKtrMUY_fabR' -o 'slides/efinance-analysis/01.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1sG5NSQFlvwWYVXJmiSzFpw3bItLZ-8Hy' -o 'slides/efinance-analysis/02.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1JUjx2HO4etjDdR3mHAKRoL-6HxCTugFx' -o 'slides/efinance-analysis/03.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1_B3cQtmLDnJ08GM3N0xx6u6IoaBLbqhv' -o 'slides/efinance-analysis/04.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1OdloJi3Pw1bA3A9XBo7iPZKXEn1Nj4ik' -o 'slides/efinance-analysis/05.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1QSZArh7u7V6s1XsmAwGQefBBJ8bEwEYb' -o 'slides/efinance-analysis/06.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1qv3_jysKtApR6sTSXWioluDIl4KpYiOP' -o 'slides/efinance-analysis/07.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=14eDoJ1FWb1KDSICgx18nQlUntFGBf9IX' -o 'slides/efinance-analysis/08.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1u8aADNlRwcfj8YdDNhC4P-PniL0neBrW' -o 'slides/efinance-analysis/09.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1DEnyy_KqH9Pt2UtT0CbP95wjmafVavh7' -o 'slides/efinance-analysis/10.webp'
+          rm -f slides/research-proposal/.gitkeep
+
+          git config user.email 'actions@github.com'
+          git config user.name 'github-actions'
+          git add -A
+          git commit -m 'Add research section: two papers with page previews'
+          git push
