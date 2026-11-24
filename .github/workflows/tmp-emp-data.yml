@@ -1,0 +1,20 @@
+name: tmp-emp-data
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          pip install gdown
+          gdown 1y9uzMLhEDK-3O9BQzF7-H3GdM_osCfmM -O /tmp/emp.zip
+          mkdir -p projects/employee-cleaning
+          unzip -o /tmp/emp.zip -d projects/employee-cleaning
+          git config user.name youssef-bot
+          git config user.email bot@local
+          git add -A
+          git commit -m 'Add employee data file'
+          git push
