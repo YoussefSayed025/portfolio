@@ -1,0 +1,54 @@
+name: upload-tmp
+on:
+  push:
+    paths:
+      - '.github/workflows/upload-tmp.yml'
+permissions:
+  contents: write
+jobs:
+  up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p files slides/special-mention slides/education-poverty
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1_Jtko80doa_BYOqcOdxErdSe6EtOTMBa' -o 'index.html'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1tvJ1qDxHKOeX0d8ZAuw30exE0W5ldi8N' -o 'files/Special-Mention-Department.pdf'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1b1q85h4l4G7-eUJONpOfGq4k52kOli_a' -o 'files/تحليل العلاقة بين التعليم والفقر في مصر 1990-2025.pdf'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1Swpa7Oja5MZ-reimH3ljtiwYKV5avb1O' -o 'slides/special-mention/01.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1gg7q1KqFM1F3EYQY2aa64gQrk_4pVPtr' -o 'slides/special-mention/02.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1iE_aGEdlmZxsCfuUOu3igctz38c7wlEu' -o 'slides/special-mention/03.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1tWPtCsxOxDn-rHFjKVIl-8idgxSNhDXo' -o 'slides/special-mention/04.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1JdHLMaKvvRxjaMc-3htIV1GGCIX0nFOW' -o 'slides/special-mention/05.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1nKyZOf_lt4cL0r8Isqeu_d0ongQH5sTX' -o 'slides/special-mention/06.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1TJwZmoVN18BW2pZfnv7gP7Ny3Pol9fOV' -o 'slides/special-mention/07.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1Ho844Lr-tby0lAPtPOznYRfNgh0yitxY' -o 'slides/special-mention/08.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1goTl-Df-3F5njbE4efeG3o2W8nvL5OFA' -o 'slides/special-mention/09.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1XTCz17tpl2AigU5wrga716T_MUWs5cSN' -o 'slides/education-poverty/01.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1aUewFtW4Tp6IRwHjqztw7TTq0nyccAri' -o 'slides/education-poverty/02.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1IjPwfroCXtb-RFhrTMQMRDx2mcMd6Tym' -o 'slides/education-poverty/03.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1P8RHj2sYfGOr7ZV3DmK34KYo_LayUvLQ' -o 'slides/education-poverty/04.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=17OMsc1L6mYoichokIgWkZjSvptIu_v5O' -o 'slides/education-poverty/05.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1e_r4yq93WjKKvgw4j0xdDeAdwulVRWTI' -o 'slides/education-poverty/06.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1Y1xyJLYwjgGAhvmGp9KkUvVc9T6XJnGo' -o 'slides/education-poverty/07.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1H_Kya33bIzDmRLJuzgBVtfK0lMFdoKf9' -o 'slides/education-poverty/08.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1g0qxx3vf4tUnLc91Fo--6yYYj5N6X_tU' -o 'slides/education-poverty/09.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=17SCymvPzYi8gKV2Yx7duiediFN93gCNH' -o 'slides/education-poverty/10.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1AS0RPPVct2oSKzirDx-1cqjNRVICnflZ' -o 'slides/education-poverty/11.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1DoeincgXJdEOgizbDOTWRRSfZx_d8tKQ' -o 'slides/education-poverty/12.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1zRorPQSubf-aBDvgmXU-EkPU0RdbIb3v' -o 'slides/education-poverty/13.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1zl6PBe74mYfNPJMfAdC8PEsOBlefPmQy' -o 'slides/education-poverty/14.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1nE06N4kyggaDxYvfLbEwoHs7oX1bvJ_x' -o 'slides/education-poverty/15.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1q5HIyHnzVav-wiXlDL4BchX8-_MO2mf4' -o 'slides/education-poverty/16.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1VZOTIVQAA5UEsE_6VO8WbX6w466Q9q8h' -o 'slides/education-poverty/17.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1yDJkX09PhbPdeSyszWFam4HiFeD_4Lm5' -o 'slides/education-poverty/18.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1UEAautsQxYW8Io3wRH0-6QdcXHTUTuEE' -o 'slides/education-poverty/19.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1tpIPZ-37Ls0i_MQzdz1-b697KPZM4ZU0' -o 'slides/education-poverty/20.webp'
+          curl -sfL --retry 3 'https://drive.google.com/uc?export=download&id=1lWa6ysUiAMYwdXYsZpN7-G6pJf6jg4BX' -o 'slides/education-poverty/21.webp'
+          ls -la files
+          head -c 300 index.html | head -3
+          git config user.name "portfolio-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add index.html files slides
+          git commit -m "Add Special Mention Department and education-poverty research to portfolio"
+          git push
