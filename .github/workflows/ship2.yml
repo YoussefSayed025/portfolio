@@ -1,5 +1,7 @@
 name: ship-aw2
 on: [push]
+permissions:
+  contents: write
 jobs:
   ship:
     runs-on: ubuntu-latest
