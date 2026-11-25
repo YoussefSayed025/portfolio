@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<script>(function(){try{var t=localStorage.getItem('portfolio-theme');if(t!=='light'&&t!=='dark')t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bicycle shop sales dashboard · Youssef Sayed Hawass</title>
 <style>
@@ -33,11 +34,22 @@ h2{font-size:1.4rem;margin-bottom:18px}
 .btn{display:inline-block;border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:10px 22px;font-weight:600}
 .btn:hover{background:var(--gold);color:#0b1230}
 footer{border-top:1px solid var(--line);padding:22px 0;color:var(--mute);font-size:.85rem}
+
+/* LIGHT THEME */
+html[data-theme="light"]{--bg:#f6f4ee;--card:rgba(255,255,255,.75);--card-hover:rgba(255,255,255,.95);--line:rgba(143,109,26,.38);--gold:#8f6d1a;--gold-dim:#6f5514;--text:#1c2333;--mute:#4d5568;}
+html[data-theme="light"] body::before{background:radial-gradient(1100px 750px at 88% 0%,rgba(226,184,74,.16),transparent 55%),radial-gradient(1000px 700px at 5% 40%,rgba(90,120,200,.12),transparent 55%),radial-gradient(900px 650px at 100% 100%,rgba(226,184,74,.10),transparent 50%),linear-gradient(180deg,#f6f4ee 0%,#eef0f6 50%,#f6f4ee 100%);}
+
+.theme-toggle{background:rgba(226,184,74,.08);border:1.5px solid var(--gold-dim);color:var(--gold);border-radius:99px;width:40px;height:40px;min-width:40px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:background .18s,color .18s,border-color .18s;padding:0;flex:0 0 auto;}
+.theme-toggle:hover{background:rgba(226,184,74,.18);}
+.theme-toggle svg{display:block;}
+
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;}
 </style>
 </head>
 <body>
 <div class="wrap">
-<header><a class="back" href="../../index.html#category-analysis">&larr; Back to portfolio</a></header>
+<header><a class="back" href="../../index.html#category-analysis">&larr; Back to portfolio</a><button aria-label="Switch to light mode" aria-pressed="false" class="theme-toggle" id="theme-toggle" type="button"><svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M19.4 4.6l-1.8 1.8M6.4 17.6l-1.8 1.8"/></svg><svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M20.6 14.5A8.5 8.5 0 0 1 9.5 3.4a8.5 8.5 0 1 0 11.1 11.1z"/></svg></button>
+</header>
 <h1>Bicycle shop sales dashboard</h1>
 <div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Excel</span></div>
 <div class="kpis"><div class="kpi"><b>$18.4M</b><span>Japan revenue · top market</span></div><div class="kpi"><b>Paseo</b><span>leading product</span></div><div class="kpi"><b>2023–2024</b><span>period covered</span></div></div>
@@ -53,5 +65,6 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--mute);font-si
 <div class="actions"><a class="btn" href="https://github.com/YoussefSayed025/portfolio/tree/main/projects/bicycle-sales" target="_blank" rel="noopener">Source on GitHub &nearr;</a> <a class="btn" href="https://www.linkedin.com/posts/youssef-hawass_salesdashboard-businessintelligence-salesperformance-ugcPost-7448792740886212608-xTRo" target="_blank" rel="noopener">Watch the walkthrough &nearr;</a></div>
 <footer>Part of <a href="../../index.html" style="color:var(--gold)">Youssef Sayed Hawass's data portfolio</a>.</footer>
 </div>
+<script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;var m=document.querySelector('meta[name="theme-color"]');var sun=b.querySelector('.icon-sun'),moon=b.querySelector('.icon-moon');function r(){var t=document.documentElement.getAttribute('data-theme')==='light'?'light':'dark';sun.style.display=t==='light'?'none':'';moon.style.display=t==='light'?'':'none';b.setAttribute('aria-pressed',String(t==='light'));b.setAttribute('aria-label',t==='light'?'Switch to dark mode':'Switch to light mode');if(m)m.setAttribute('content',t==='light'?'#f6f4ee':'#070a14');}b.addEventListener('click',function(){var t=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('portfolio-theme',t);}catch(e){}r();});r();})();</script>
 </body>
 </html>
