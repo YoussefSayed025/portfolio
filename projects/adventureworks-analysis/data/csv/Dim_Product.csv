@@ -1,0 +1,296 @@
+Product ID,Subcategory ID,Product Name,Product Number,Is Manufactured,Product Class,Product Style,Product Color,Category Name,Subcategory Name,Product Model,Product Size,Size Unit Measure,Weight Unit Measure,Standard Cost,List Price,Days To Manufacture,Product Line,Product Status
+680,14,"HL Road Frame - Black, 58",FR-R92B-58,True,H ,U ,Black,Components,Road Frames,HL Road Frame,X,Centimeter,US pound,1059.31,1431.5,Within a Week,R ,Active
+706,14,"HL Road Frame - Red, 58",FR-R92R-58,True,H ,U ,Red,Components,Road Frames,HL Road Frame,X,Centimeter,US pound,1059.31,1431.5,Within a Week,R ,Active
+707,31,"Sport-100 Helmet, Red",HL-U509-R,False,L ,U ,Red,Accessories,Helmets,Sport-100,XL,Centimeter,US pound,13.0863,34.99,Same Day,S ,Active
+708,31,"Sport-100 Helmet, Black",HL-U509,False,L ,U ,Black,Accessories,Helmets,Sport-100,XL,Centimeter,US pound,13.0863,34.99,Same Day,S ,Active
+709,23,"Mountain Bike Socks, M",SO-B909-M,False,L ,U ,White,Clothing,Socks,Mountain Bike Socks,M,Centimeter,US pound,3.3963,9.5,Same Day,M ,Discontinued
+710,23,"Mountain Bike Socks, L",SO-B909-L,False,L ,U ,White,Clothing,Socks,Mountain Bike Socks,L,Centimeter,US pound,3.3963,9.5,Same Day,M ,Discontinued
+711,31,"Sport-100 Helmet, Blue",HL-U509-B,False,L ,U ,Blue,Accessories,Helmets,Sport-100,XL,Centimeter,US pound,13.0863,34.99,Same Day,S ,Active
+712,19,AWC Logo Cap,CA-1098,False,L ,U ,Multi,Clothing,Caps,Cycling Cap,XL,Centimeter,US pound,6.9223,8.99,Same Day,S ,Active
+713,21,"Long-Sleeve Logo Jersey, S",LJ-0192-S,False,L ,U ,Multi,Clothing,Jerseys,Long-Sleeve Logo Jersey,S,Centimeter,US pound,38.4923,49.99,Same Day,S ,Active
+714,21,"Long-Sleeve Logo Jersey, M",LJ-0192-M,False,L ,U ,Multi,Clothing,Jerseys,Long-Sleeve Logo Jersey,M,Centimeter,US pound,38.4923,49.99,Same Day,S ,Active
+715,21,"Long-Sleeve Logo Jersey, L",LJ-0192-L,False,L ,U ,Multi,Clothing,Jerseys,Long-Sleeve Logo Jersey,L,Centimeter,US pound,38.4923,49.99,Same Day,S ,Active
+716,21,"Long-Sleeve Logo Jersey, XL",LJ-0192-X,False,L ,U ,Multi,Clothing,Jerseys,Long-Sleeve Logo Jersey,XL,Centimeter,US pound,38.4923,49.99,Same Day,S ,Active
+717,14,"HL Road Frame - Red, 62",FR-R92R-62,True,H ,U ,Red,Components,Road Frames,HL Road Frame,XL,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+718,14,"HL Road Frame - Red, 44",FR-R92R-44,True,H ,U ,Red,Components,Road Frames,HL Road Frame,L,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+719,14,"HL Road Frame - Red, 48",FR-R92R-48,True,H ,U ,Red,Components,Road Frames,HL Road Frame,L,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+720,14,"HL Road Frame - Red, 52",FR-R92R-52,True,H ,U ,Red,Components,Road Frames,HL Road Frame,X,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+721,14,"HL Road Frame - Red, 56",FR-R92R-56,True,H ,U ,Red,Components,Road Frames,HL Road Frame,X,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+722,14,"LL Road Frame - Black, 58",FR-R38B-58,True,L ,U ,Black,Components,Road Frames,LL Road Frame,X,Centimeter,US pound,204.6251,337.22,Within a Week,R ,Active
+723,14,"LL Road Frame - Black, 60",FR-R38B-60,True,L ,U ,Black,Components,Road Frames,LL Road Frame,X,Centimeter,US pound,204.6251,337.22,Within a Week,R ,Active
+724,14,"LL Road Frame - Black, 62",FR-R38B-62,True,L ,U ,Black,Components,Road Frames,LL Road Frame,XL,Centimeter,US pound,204.6251,337.22,Within a Week,R ,Active
+725,14,"LL Road Frame - Red, 44",FR-R38R-44,True,L ,U ,Red,Components,Road Frames,LL Road Frame,L,Centimeter,US pound,187.1571,337.22,Within a Week,R ,Discontinued
+726,14,"LL Road Frame - Red, 48",FR-R38R-48,True,L ,U ,Red,Components,Road Frames,LL Road Frame,L,Centimeter,US pound,187.1571,337.22,Within a Week,R ,Discontinued
+727,14,"LL Road Frame - Red, 52",FR-R38R-52,True,L ,U ,Red,Components,Road Frames,LL Road Frame,X,Centimeter,US pound,187.1571,337.22,Within a Week,R ,Discontinued
+728,14,"LL Road Frame - Red, 58",FR-R38R-58,True,L ,U ,Red,Components,Road Frames,LL Road Frame,X,Centimeter,US pound,187.1571,337.22,Within a Week,R ,Discontinued
+729,14,"LL Road Frame - Red, 60",FR-R38R-60,True,L ,U ,Red,Components,Road Frames,LL Road Frame,X,Centimeter,US pound,187.1571,337.22,Within a Week,R ,Discontinued
+730,14,"LL Road Frame - Red, 62",FR-R38R-62,True,L ,U ,Red,Components,Road Frames,LL Road Frame,XL,Centimeter,US pound,187.1571,337.22,Within a Week,R ,Discontinued
+731,14,"ML Road Frame - Red, 44",FR-R72R-44,True,M ,U ,Red,Components,Road Frames,ML Road Frame,L,Centimeter,US pound,352.1394,594.83,Within a Week,R ,Discontinued
+732,14,"ML Road Frame - Red, 48",FR-R72R-48,True,M ,U ,Red,Components,Road Frames,ML Road Frame,L,Centimeter,US pound,352.1394,594.83,Within a Week,R ,Discontinued
+733,14,"ML Road Frame - Red, 52",FR-R72R-52,True,M ,U ,Red,Components,Road Frames,ML Road Frame,X,Centimeter,US pound,352.1394,594.83,Within a Week,R ,Discontinued
+734,14,"ML Road Frame - Red, 58",FR-R72R-58,True,M ,U ,Red,Components,Road Frames,ML Road Frame,X,Centimeter,US pound,352.1394,594.83,Within a Week,R ,Discontinued
+735,14,"ML Road Frame - Red, 60",FR-R72R-60,True,M ,U ,Red,Components,Road Frames,ML Road Frame,X,Centimeter,US pound,352.1394,594.83,Within a Week,R ,Discontinued
+736,14,"LL Road Frame - Black, 44",FR-R38B-44,True,L ,U ,Black,Components,Road Frames,LL Road Frame,L,Centimeter,US pound,204.6251,337.22,Within a Week,R ,Active
+737,14,"LL Road Frame - Black, 48",FR-R38B-48,True,L ,U ,Black,Components,Road Frames,LL Road Frame,L,Centimeter,US pound,204.6251,337.22,Within a Week,R ,Active
+738,14,"LL Road Frame - Black, 52",FR-R38B-52,True,L ,U ,Black,Components,Road Frames,LL Road Frame,X,Centimeter,US pound,204.6251,337.22,Within a Week,R ,Active
+739,12,"HL Mountain Frame - Silver, 42",FR-M94S-42,True,H ,U ,Silver,Components,Mountain Frames,HL Mountain Frame,L,Centimeter,US pound,747.2002,1364.5,Within a Week,M ,Active
+740,12,"HL Mountain Frame - Silver, 44",FR-M94S-44,True,H ,U ,Silver,Components,Mountain Frames,HL Mountain Frame,L,Centimeter,US pound,706.811,1364.5,Within a Week,M ,Discontinued
+741,12,"HL Mountain Frame - Silver, 48",FR-M94S-52,True,H ,U ,Silver,Components,Mountain Frames,HL Mountain Frame,L,Centimeter,US pound,706.811,1364.5,Within a Week,M ,Discontinued
+742,12,"HL Mountain Frame - Silver, 46",FR-M94S-46,True,H ,U ,Silver,Components,Mountain Frames,HL Mountain Frame,L,Centimeter,US pound,747.2002,1364.5,Within a Week,M ,Active
+743,12,"HL Mountain Frame - Black, 42",FR-M94B-42,True,H ,U ,Black,Components,Mountain Frames,HL Mountain Frame,L,Centimeter,US pound,739.041,1349.6,Within a Week,M ,Active
+744,12,"HL Mountain Frame - Black, 44",FR-M94B-44,True,H ,U ,Black,Components,Mountain Frames,HL Mountain Frame,L,Centimeter,US pound,699.0928,1349.6,Within a Week,M ,Discontinued
+745,12,"HL Mountain Frame - Black, 48",FR-M94B-48,True,H ,U ,Black,Components,Mountain Frames,HL Mountain Frame,L,Centimeter,US pound,699.0928,1349.6,Within a Week,M ,Discontinued
+746,12,"HL Mountain Frame - Black, 46",FR-M94B-46,True,H ,U ,Black,Components,Mountain Frames,HL Mountain Frame,L,Centimeter,US pound,739.041,1349.6,Within a Week,M ,Active
+747,12,"HL Mountain Frame - Black, 38",FR-M94B-38,True,H ,U ,Black,Components,Mountain Frames,HL Mountain Frame,M,Centimeter,US pound,739.041,1349.6,Within a Week,M ,Active
+748,12,"HL Mountain Frame - Silver, 38",FR-M94S-38,True,H ,U ,Silver,Components,Mountain Frames,HL Mountain Frame,M,Centimeter,US pound,747.2002,1364.5,Within a Week,M ,Active
+749,2,"Road-150 Red, 62",BK-R93R-62,True,H ,U ,Red,Bikes,Road Bikes,Road-150,XL,Centimeter,US pound,2171.2942,3578.27,Within a Week,R ,Discontinued
+750,2,"Road-150 Red, 44",BK-R93R-44,True,H ,U ,Red,Bikes,Road Bikes,Road-150,L,Centimeter,US pound,2171.2942,3578.27,Within a Week,R ,Discontinued
+751,2,"Road-150 Red, 48",BK-R93R-48,True,H ,U ,Red,Bikes,Road Bikes,Road-150,L,Centimeter,US pound,2171.2942,3578.27,Within a Week,R ,Discontinued
+752,2,"Road-150 Red, 52",BK-R93R-52,True,H ,U ,Red,Bikes,Road Bikes,Road-150,X,Centimeter,US pound,2171.2942,3578.27,Within a Week,R ,Discontinued
+753,2,"Road-150 Red, 56",BK-R93R-56,True,H ,U ,Red,Bikes,Road Bikes,Road-150,X,Centimeter,US pound,2171.2942,3578.27,Within a Week,R ,Discontinued
+754,2,"Road-450 Red, 58",BK-R68R-58,True,M ,U ,Red,Bikes,Road Bikes,Road-450,X,Centimeter,US pound,884.7083,1457.99,Within a Week,R ,Discontinued
+755,2,"Road-450 Red, 60",BK-R68R-60,True,M ,U ,Red,Bikes,Road Bikes,Road-450,X,Centimeter,US pound,884.7083,1457.99,Within a Week,R ,Discontinued
+756,2,"Road-450 Red, 44",BK-R68R-44,True,M ,U ,Red,Bikes,Road Bikes,Road-450,L,Centimeter,US pound,884.7083,1457.99,Within a Week,R ,Discontinued
+757,2,"Road-450 Red, 48",BK-R68R-48,True,M ,U ,Red,Bikes,Road Bikes,Road-450,L,Centimeter,US pound,884.7083,1457.99,Within a Week,R ,Discontinued
+758,2,"Road-450 Red, 52",BK-R68R-52,True,M ,U ,Red,Bikes,Road Bikes,Road-450,X,Centimeter,US pound,884.7083,1457.99,Within a Week,R ,Discontinued
+759,2,"Road-650 Red, 58",BK-R50R-58,True,L ,U ,Red,Bikes,Road Bikes,Road-650,X,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+760,2,"Road-650 Red, 60",BK-R50R-60,True,L ,U ,Red,Bikes,Road Bikes,Road-650,X,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+761,2,"Road-650 Red, 62",BK-R50R-62,True,L ,U ,Red,Bikes,Road Bikes,Road-650,XL,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+762,2,"Road-650 Red, 44",BK-R50R-44,True,L ,U ,Red,Bikes,Road Bikes,Road-650,L,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+763,2,"Road-650 Red, 48",BK-R50R-48,True,L ,U ,Red,Bikes,Road Bikes,Road-650,L,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+764,2,"Road-650 Red, 52",BK-R50R-52,True,L ,U ,Red,Bikes,Road Bikes,Road-650,X,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+765,2,"Road-650 Black, 58",BK-R50B-58,True,L ,U ,Black,Bikes,Road Bikes,Road-650,X,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+766,2,"Road-650 Black, 60",BK-R50B-60,True,L ,U ,Black,Bikes,Road Bikes,Road-650,X,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+767,2,"Road-650 Black, 62",BK-R50B-62,True,L ,U ,Black,Bikes,Road Bikes,Road-650,XL,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+768,2,"Road-650 Black, 44",BK-R50B-44,True,L ,U ,Black,Bikes,Road Bikes,Road-650,L,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+769,2,"Road-650 Black, 48",BK-R50B-48,True,L ,U ,Black,Bikes,Road Bikes,Road-650,L,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+770,2,"Road-650 Black, 52",BK-R50B-52,True,L ,U ,Black,Bikes,Road Bikes,Road-650,X,Centimeter,US pound,486.7066,782.99,Within a Week,R ,Discontinued
+771,1,"Mountain-100 Silver, 38",BK-M82S-38,True,H ,U ,Silver,Bikes,Mountain Bikes,Mountain-100,M,Centimeter,US pound,1912.1544,3399.99,Within a Week,M ,Discontinued
+772,1,"Mountain-100 Silver, 42",BK-M82S-42,True,H ,U ,Silver,Bikes,Mountain Bikes,Mountain-100,L,Centimeter,US pound,1912.1544,3399.99,Within a Week,M ,Discontinued
+773,1,"Mountain-100 Silver, 44",BK-M82S-44,True,H ,U ,Silver,Bikes,Mountain Bikes,Mountain-100,L,Centimeter,US pound,1912.1544,3399.99,Within a Week,M ,Discontinued
+774,1,"Mountain-100 Silver, 48",BK-M82S-48,True,H ,U ,Silver,Bikes,Mountain Bikes,Mountain-100,L,Centimeter,US pound,1912.1544,3399.99,Within a Week,M ,Discontinued
+775,1,"Mountain-100 Black, 38",BK-M82B-38,True,H ,U ,Black,Bikes,Mountain Bikes,Mountain-100,M,Centimeter,US pound,1898.0944,3374.99,Within a Week,M ,Discontinued
+776,1,"Mountain-100 Black, 42",BK-M82B-42,True,H ,U ,Black,Bikes,Mountain Bikes,Mountain-100,L,Centimeter,US pound,1898.0944,3374.99,Within a Week,M ,Discontinued
+777,1,"Mountain-100 Black, 44",BK-M82B-44,True,H ,U ,Black,Bikes,Mountain Bikes,Mountain-100,L,Centimeter,US pound,1898.0944,3374.99,Within a Week,M ,Discontinued
+778,1,"Mountain-100 Black, 48",BK-M82B-48,True,H ,U ,Black,Bikes,Mountain Bikes,Mountain-100,L,Centimeter,US pound,1898.0944,3374.99,Within a Week,M ,Discontinued
+779,1,"Mountain-200 Silver, 38",BK-M68S-38,True,H ,U ,Silver,Bikes,Mountain Bikes,Mountain-200,M,Centimeter,US pound,1265.6195,2319.99,Within a Week,M ,Active
+780,1,"Mountain-200 Silver, 42",BK-M68S-42,True,H ,U ,Silver,Bikes,Mountain Bikes,Mountain-200,L,Centimeter,US pound,1265.6195,2319.99,Within a Week,M ,Active
+781,1,"Mountain-200 Silver, 46",BK-M68S-46,True,H ,U ,Silver,Bikes,Mountain Bikes,Mountain-200,L,Centimeter,US pound,1265.6195,2319.99,Within a Week,M ,Active
+782,1,"Mountain-200 Black, 38",BK-M68B-38,True,H ,U ,Black,Bikes,Mountain Bikes,Mountain-200,M,Centimeter,US pound,1251.9813,2294.99,Within a Week,M ,Active
+783,1,"Mountain-200 Black, 42",BK-M68B-42,True,H ,U ,Black,Bikes,Mountain Bikes,Mountain-200,L,Centimeter,US pound,1251.9813,2294.99,Within a Week,M ,Active
+784,1,"Mountain-200 Black, 46",BK-M68B-46,True,H ,U ,Black,Bikes,Mountain Bikes,Mountain-200,L,Centimeter,US pound,1251.9813,2294.99,Within a Week,M ,Active
+785,1,"Mountain-300 Black, 38",BK-M47B-38,True,M ,U ,Black,Bikes,Mountain Bikes,Mountain-300,M,Centimeter,US pound,598.4354,1079.99,Within a Week,M ,Discontinued
+786,1,"Mountain-300 Black, 40",BK-M47B-40,True,M ,U ,Black,Bikes,Mountain Bikes,Mountain-300,M,Centimeter,US pound,598.4354,1079.99,Within a Week,M ,Discontinued
+787,1,"Mountain-300 Black, 44",BK-M47B-44,True,M ,U ,Black,Bikes,Mountain Bikes,Mountain-300,L,Centimeter,US pound,598.4354,1079.99,Within a Week,M ,Discontinued
+788,1,"Mountain-300 Black, 48",BK-M47B-48,True,M ,U ,Black,Bikes,Mountain Bikes,Mountain-300,L,Centimeter,US pound,598.4354,1079.99,Within a Week,M ,Discontinued
+789,2,"Road-250 Red, 44",BK-R89R-44,True,H ,U ,Red,Bikes,Road Bikes,Road-250,L,Centimeter,US pound,1518.7864,2443.35,Within a Week,R ,Discontinued
+790,2,"Road-250 Red, 48",BK-R89R-48,True,H ,U ,Red,Bikes,Road Bikes,Road-250,L,Centimeter,US pound,1518.7864,2443.35,Within a Week,R ,Discontinued
+791,2,"Road-250 Red, 52",BK-R89R-52,True,H ,U ,Red,Bikes,Road Bikes,Road-250,X,Centimeter,US pound,1518.7864,2443.35,Within a Week,R ,Discontinued
+792,2,"Road-250 Red, 58",BK-R89R-58,True,H ,U ,Red,Bikes,Road Bikes,Road-250,X,Centimeter,US pound,1554.9479,2443.35,Within a Week,R ,Active
+793,2,"Road-250 Black, 44",BK-R89B-44,True,H ,U ,Black,Bikes,Road Bikes,Road-250,L,Centimeter,US pound,1554.9479,2443.35,Within a Week,R ,Active
+794,2,"Road-250 Black, 48",BK-R89B-48,True,H ,U ,Black,Bikes,Road Bikes,Road-250,L,Centimeter,US pound,1554.9479,2443.35,Within a Week,R ,Active
+795,2,"Road-250 Black, 52",BK-R89B-52,True,H ,U ,Black,Bikes,Road Bikes,Road-250,X,Centimeter,US pound,1554.9479,2443.35,Within a Week,R ,Active
+796,2,"Road-250 Black, 58",BK-R89B-58,True,H ,U ,Black,Bikes,Road Bikes,Road-250,X,Centimeter,US pound,1554.9479,2443.35,Within a Week,R ,Active
+797,2,"Road-550-W Yellow, 38",BK-R64Y-38,True,M ,W ,Yellow,Bikes,Road Bikes,Road-550-W,M,Centimeter,US pound,713.0798,1120.49,Within a Week,R ,Active
+798,2,"Road-550-W Yellow, 40",BK-R64Y-40,True,M ,W ,Yellow,Bikes,Road Bikes,Road-550-W,M,Centimeter,US pound,713.0798,1120.49,Within a Week,R ,Active
+799,2,"Road-550-W Yellow, 42",BK-R64Y-42,True,M ,W ,Yellow,Bikes,Road Bikes,Road-550-W,L,Centimeter,US pound,713.0798,1120.49,Within a Week,R ,Active
+800,2,"Road-550-W Yellow, 44",BK-R64Y-44,True,M ,W ,Yellow,Bikes,Road Bikes,Road-550-W,L,Centimeter,US pound,713.0798,1120.49,Within a Week,R ,Active
+801,2,"Road-550-W Yellow, 48",BK-R64Y-48,True,M ,W ,Yellow,Bikes,Road Bikes,Road-550-W,L,Centimeter,US pound,713.0798,1120.49,Within a Week,R ,Active
+802,10,LL Fork,FK-1639,True,L ,U ,Black,Components,Forks,LL Fork,XL,Centimeter,US pound,65.8097,148.22,Within a Week,Un,Discontinued
+803,10,ML Fork,FK-5136,True,M ,U ,Black,Components,Forks,ML Fork,XL,Centimeter,US pound,77.9176,175.49,Within a Week,Un,Discontinued
+804,10,HL Fork,FK-9939,True,H ,U ,Black,Components,Forks,HL Fork,XL,Centimeter,US pound,101.8936,229.49,Within a Week,Un,Discontinued
+805,11,LL Headset,HS-0296,True,L ,U ,Black,Components,Headsets,LL Headset,XL,Centimeter,US pound,15.1848,34.2,Within a Week,Un,Discontinued
+806,11,ML Headset,HS-2451,True,M ,U ,Black,Components,Headsets,ML Headset,XL,Centimeter,US pound,45.4168,102.29,Within a Week,Un,Discontinued
+807,11,HL Headset,HS-3479,True,H ,U ,Black,Components,Headsets,HL Headset,XL,Centimeter,US pound,55.3801,124.73,Within a Week,Un,Discontinued
+808,4,LL Mountain Handlebars,HB-M243,True,L ,U ,Black,Components,Handlebars,LL Mountain Handlebars,XL,Centimeter,US pound,19.7758,44.54,Within a Week,M ,Active
+809,4,ML Mountain Handlebars,HB-M763,True,M ,U ,Black,Components,Handlebars,ML Mountain Handlebars,XL,Centimeter,US pound,27.4925,61.92,Within a Week,M ,Active
+810,4,HL Mountain Handlebars,HB-M918,True,H ,U ,Black,Components,Handlebars,HL Mountain Handlebars,XL,Centimeter,US pound,53.3999,120.27,Within a Week,M ,Active
+811,4,LL Road Handlebars,HB-R504,True,L ,U ,Black,Components,Handlebars,LL Road Handlebars,XL,Centimeter,US pound,19.7758,44.54,Within a Week,R ,Active
+812,4,ML Road Handlebars,HB-R720,True,M ,U ,Black,Components,Handlebars,ML Road Handlebars,XL,Centimeter,US pound,27.4925,61.92,Within a Week,R ,Active
+813,4,HL Road Handlebars,HB-R956,True,H ,U ,Black,Components,Handlebars,HL Road Handlebars,XL,Centimeter,US pound,53.3999,120.27,Within a Week,R ,Active
+814,12,"ML Mountain Frame - Black, 38",FR-M63B-38,True,M ,U ,Black,Components,Mountain Frames,ML Mountain Frame-W,M,Centimeter,US pound,185.8193,348.76,Within a Week,M ,Discontinued
+815,17,LL Mountain Front Wheel,FW-M423,True,L ,U ,Black,Components,Wheels,LL Mountain Front Wheel,XL,Centimeter,US pound,26.9708,60.745,Within a Week,M ,Discontinued
+816,17,ML Mountain Front Wheel,FW-M762,True,M ,U ,Black,Components,Wheels,ML Mountain Front Wheel,XL,Centimeter,US pound,92.8071,209.025,Within a Week,M ,Discontinued
+817,17,HL Mountain Front Wheel,FW-M928,True,H ,U ,Black,Components,Wheels,HL Mountain Front Wheel,XL,Centimeter,US pound,133.2955,300.215,Within a Week,M ,Discontinued
+818,17,LL Road Front Wheel,FW-R623,True,L ,U ,Black,Components,Wheels,LL Road Front Wheel,XL,Centimeter,Gram,37.9909,85.565,Within a Week,R ,Discontinued
+819,17,ML Road Front Wheel,FW-R762,True,M ,U ,Black,Components,Wheels,ML Road Front Wheel,XL,Centimeter,Gram,110.2829,248.385,Within a Week,R ,Discontinued
+820,17,HL Road Front Wheel,FW-R820,True,H ,U ,Black,Components,Wheels,HL Road Front Wheel,XL,Centimeter,Gram,146.5466,330.06,Within a Week,R ,Discontinued
+821,17,Touring Front Wheel,FW-T905,True,L ,U ,Black,Components,Wheels,Touring Front Wheel,XL,Centimeter,US pound,96.7964,218.01,Within a Week,T ,Discontinued
+822,14,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,True,M ,W ,Yellow,Components,Road Frames,ML Road Frame-W,M,Centimeter,US pound,360.9428,594.83,Within a Week,R ,Active
+823,17,LL Mountain Rear Wheel,RW-M423,True,L ,U ,Black,Components,Wheels,LL Mountain Rear Wheel,XL,Centimeter,US pound,38.9588,87.745,Within a Week,M ,Discontinued
+824,17,ML Mountain Rear Wheel,RW-M762,True,M ,U ,Black,Components,Wheels,ML Mountain Rear Wheel,XL,Centimeter,US pound,104.7951,236.025,Within a Week,M ,Discontinued
+825,17,HL Mountain Rear Wheel,RW-M928,True,H ,U ,Black,Components,Wheels,HL Mountain Rear Wheel,XL,Centimeter,US pound,145.2835,327.215,Within a Week,M ,Discontinued
+826,17,LL Road Rear Wheel,RW-R623,True,L ,U ,Black,Components,Wheels,LL Road Rear Wheel,XL,Centimeter,Gram,49.9789,112.565,Within a Week,R ,Discontinued
+827,17,ML Road Rear Wheel,RW-R762,True,M ,U ,Black,Components,Wheels,ML Road Rear Wheel,XL,Centimeter,Gram,122.2709,275.385,Within a Week,R ,Discontinued
+828,17,HL Road Rear Wheel,RW-R820,True,H ,U ,Black,Components,Wheels,HL Road Rear Wheel,XL,Centimeter,Gram,158.5346,357.06,Within a Week,R ,Discontinued
+829,17,Touring Rear Wheel,RW-T905,True,L ,U ,Black,Components,Wheels,Touring Rear Wheel,XL,Centimeter,US pound,108.7844,245.01,Within a Week,T ,Discontinued
+830,12,"ML Mountain Frame - Black, 40",FR-M63B-40,True,M ,U ,Black,Components,Mountain Frames,ML Mountain Frame,M,Centimeter,US pound,185.8193,348.76,Within a Week,M ,Discontinued
+831,12,"ML Mountain Frame - Black, 44",FR-M63B-44,True,M ,U ,Black,Components,Mountain Frames,ML Mountain Frame,L,Centimeter,US pound,185.8193,348.76,Within a Week,M ,Discontinued
+832,12,"ML Mountain Frame - Black, 48",FR-M63B-48,True,M ,U ,Black,Components,Mountain Frames,ML Mountain Frame,L,Centimeter,US pound,185.8193,348.76,Within a Week,M ,Discontinued
+833,14,"ML Road Frame-W - Yellow, 40",FR-R72Y-40,True,M ,W ,Yellow,Components,Road Frames,ML Road Frame-W,M,Centimeter,US pound,360.9428,594.83,Within a Week,R ,Active
+834,14,"ML Road Frame-W - Yellow, 42",FR-R72Y-42,True,M ,W ,Yellow,Components,Road Frames,ML Road Frame-W,L,Centimeter,US pound,360.9428,594.83,Within a Week,R ,Active
+835,14,"ML Road Frame-W - Yellow, 44",FR-R72Y-44,True,M ,W ,Yellow,Components,Road Frames,ML Road Frame-W,L,Centimeter,US pound,360.9428,594.83,Within a Week,R ,Active
+836,14,"ML Road Frame-W - Yellow, 48",FR-R72Y-48,True,M ,W ,Yellow,Components,Road Frames,ML Road Frame-W,L,Centimeter,US pound,360.9428,594.83,Within a Week,R ,Active
+837,14,"HL Road Frame - Black, 62",FR-R92B-62,True,H ,U ,Black,Components,Road Frames,HL Road Frame,XL,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+838,14,"HL Road Frame - Black, 44",FR-R92B-44,True,H ,U ,Black,Components,Road Frames,HL Road Frame,L,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+839,14,"HL Road Frame - Black, 48",FR-R92B-48,True,H ,U ,Black,Components,Road Frames,HL Road Frame,L,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+840,14,"HL Road Frame - Black, 52",FR-R92B-52,True,H ,U ,Black,Components,Road Frames,HL Road Frame,X,Centimeter,US pound,868.6342,1431.5,Within a Week,R ,Active
+841,22,"Men's Sports Shorts, S",SH-M897-S,False,L ,M ,Black,Clothing,Shorts,Men's Sports Shorts,S,Centimeter,US pound,24.7459,59.99,Same Day,S ,Discontinued
+842,35,"Touring-Panniers, Large",PA-T100,False,L ,U ,Grey,Accessories,Panniers,Touring-Panniers,XL,Centimeter,US pound,51.5625,125.0,Same Day,T ,Discontinued
+843,34,Cable Lock,LO-C100,False,L ,U ,Black,Accessories,Locks,Cable Lock,XL,Centimeter,US pound,10.3125,25.0,Same Day,S ,Discontinued
+844,36,Minipump,PU-0452,False,L ,U ,Black,Accessories,Pumps,Minipump,XL,Centimeter,US pound,8.2459,19.99,Same Day,S ,Discontinued
+845,36,Mountain Pump,PU-M044,False,L ,U ,Black,Accessories,Pumps,Mountain Pump,XL,Centimeter,US pound,10.3084,24.99,Same Day,M ,Discontinued
+846,33,Taillights - Battery-Powered,LT-T990,False,L ,U ,Black,Accessories,Lights,Taillight,XL,Centimeter,US pound,5.7709,13.99,Same Day,R ,Discontinued
+847,33,Headlights - Dual-Beam,LT-H902,False,L ,U ,Black,Accessories,Lights,Headlights - Dual-Beam,XL,Centimeter,US pound,14.4334,34.99,Same Day,R ,Discontinued
+848,33,Headlights - Weatherproof,LT-H903,False,L ,U ,Black,Accessories,Lights,Headlights - Weatherproof,XL,Centimeter,US pound,18.5584,44.99,Same Day,R ,Discontinued
+849,22,"Men's Sports Shorts, M",SH-M897-M,False,L ,M ,Black,Clothing,Shorts,Men's Sports Shorts,M,Centimeter,US pound,24.7459,59.99,Same Day,S ,Discontinued
+850,22,"Men's Sports Shorts, L",SH-M897-L,False,L ,M ,Black,Clothing,Shorts,Men's Sports Shorts,L,Centimeter,US pound,24.7459,59.99,Same Day,S ,Discontinued
+851,22,"Men's Sports Shorts, XL",SH-M897-X,False,L ,M ,Black,Clothing,Shorts,Men's Sports Shorts,XL,Centimeter,US pound,24.7459,59.99,Same Day,S ,Discontinued
+852,24,"Women's Tights, S",TG-W091-S,False,L ,W ,Black,Clothing,Tights,Women's Tights,S,Centimeter,US pound,30.9334,74.99,Same Day,S ,Discontinued
+853,24,"Women's Tights, M",TG-W091-M,False,L ,W ,Black,Clothing,Tights,Women's Tights,M,Centimeter,US pound,30.9334,74.99,Same Day,S ,Discontinued
+854,24,"Women's Tights, L",TG-W091-L,False,L ,W ,Black,Clothing,Tights,Women's Tights,L,Centimeter,US pound,30.9334,74.99,Same Day,S ,Discontinued
+855,18,"Men's Bib-Shorts, S",SB-M891-S,False,L ,M ,Multi,Clothing,Bib-Shorts,Men's Bib-Shorts,S,Centimeter,US pound,37.1209,89.99,Same Day,S ,Discontinued
+856,18,"Men's Bib-Shorts, M",SB-M891-M,False,L ,M ,Multi,Clothing,Bib-Shorts,Men's Bib-Shorts,M,Centimeter,US pound,37.1209,89.99,Same Day,S ,Discontinued
+857,18,"Men's Bib-Shorts, L",SB-M891-L,False,L ,M ,Multi,Clothing,Bib-Shorts,Men's Bib-Shorts,L,Centimeter,US pound,37.1209,89.99,Same Day,S ,Discontinued
+858,20,"Half-Finger Gloves, S",GL-H102-S,False,L ,U ,Black,Clothing,Gloves,Half-Finger Gloves,S,Centimeter,US pound,9.1593,24.49,Same Day,S ,Active
+859,20,"Half-Finger Gloves, M",GL-H102-M,False,L ,U ,Black,Clothing,Gloves,Half-Finger Gloves,M,Centimeter,US pound,9.1593,24.49,Same Day,S ,Active
+860,20,"Half-Finger Gloves, L",GL-H102-L,False,L ,U ,Black,Clothing,Gloves,Half-Finger Gloves,L,Centimeter,US pound,9.1593,24.49,Same Day,S ,Active
+861,20,"Full-Finger Gloves, S",GL-F110-S,False,L ,U ,Black,Clothing,Gloves,Full-Finger Gloves,S,Centimeter,US pound,15.6709,37.99,Same Day,M ,Discontinued
+862,20,"Full-Finger Gloves, M",GL-F110-M,False,L ,U ,Black,Clothing,Gloves,Full-Finger Gloves,M,Centimeter,US pound,15.6709,37.99,Same Day,M ,Discontinued
+863,20,"Full-Finger Gloves, L",GL-F110-L,False,L ,U ,Black,Clothing,Gloves,Full-Finger Gloves,L,Centimeter,US pound,15.6709,37.99,Same Day,M ,Discontinued
+864,25,"Classic Vest, S",VE-C304-S,False,L ,U ,Blue,Clothing,Vests,Classic Vest,S,Centimeter,US pound,23.749,63.5,Same Day,S ,Active
+865,25,"Classic Vest, M",VE-C304-M,False,L ,U ,Blue,Clothing,Vests,Classic Vest,M,Centimeter,US pound,23.749,63.5,Same Day,S ,Active
+866,25,"Classic Vest, L",VE-C304-L,False,L ,U ,Blue,Clothing,Vests,Classic Vest,L,Centimeter,US pound,23.749,63.5,Same Day,S ,Active
+867,22,"Women's Mountain Shorts, S",SH-W890-S,False,L ,W ,Black,Clothing,Shorts,Women's Mountain Shorts,S,Centimeter,US pound,26.1763,69.99,Same Day,M ,Active
+868,22,"Women's Mountain Shorts, M",SH-W890-M,False,L ,W ,Black,Clothing,Shorts,Women's Mountain Shorts,M,Centimeter,US pound,26.1763,69.99,Same Day,M ,Active
+869,22,"Women's Mountain Shorts, L",SH-W890-L,False,L ,W ,Black,Clothing,Shorts,Women's Mountain Shorts,L,Centimeter,US pound,26.1763,69.99,Same Day,M ,Active
+870,28,Water Bottle - 30 oz.,WB-H098,False,L ,U ,Black,Accessories,Bottles and Cages,Water Bottle,XL,Centimeter,US pound,1.8663,4.99,Same Day,S ,Active
+871,28,Mountain Bottle Cage,BC-M005,False,L ,U ,Black,Accessories,Bottles and Cages,Mountain Bottle Cage,XL,Centimeter,US pound,3.7363,9.99,Same Day,M ,Active
+872,28,Road Bottle Cage,BC-R205,False,L ,U ,Black,Accessories,Bottles and Cages,Road Bottle Cage,XL,Centimeter,US pound,3.3623,8.99,Same Day,R ,Active
+873,37,Patch Kit/8 Patches,PK-7098,False,L ,U ,Black,Accessories,Tires and Tubes,Patch kit,XL,Centimeter,US pound,0.8565,2.29,Same Day,S ,Active
+874,23,"Racing Socks, M",SO-R809-M,False,L ,U ,White,Clothing,Socks,Racing Socks,M,Centimeter,US pound,3.3623,8.99,Same Day,R ,Active
+875,23,"Racing Socks, L",SO-R809-L,False,L ,U ,White,Clothing,Socks,Racing Socks,L,Centimeter,US pound,3.3623,8.99,Same Day,R ,Active
+876,26,Hitch Rack - 4-Bike,RA-H123,False,L ,U ,Black,Accessories,Bike Racks,Hitch Rack - 4-Bike,XL,Centimeter,US pound,44.88,120.0,Same Day,S ,Active
+877,29,Bike Wash - Dissolver,CL-9009,False,L ,U ,Black,Accessories,Cleaners,Bike Wash,XL,Centimeter,US pound,2.9733,7.95,Same Day,S ,Active
+878,30,Fender Set - Mountain,FE-6654,False,L ,U ,Black,Accessories,Fenders,Fender Set - Mountain,XL,Centimeter,US pound,8.2205,21.98,Same Day,M ,Active
+879,27,All-Purpose Bike Stand,ST-1401,False,L ,U ,Black,Accessories,Bike Stands,All-Purpose Bike Stand,XL,Centimeter,US pound,59.466,159.0,Same Day,M ,Active
+880,32,Hydration Pack - 70 oz.,HY-1023-70,False,L ,U ,Silver,Accessories,Hydration Packs,Hydration Pack,XL,Centimeter,US pound,20.5663,54.99,Same Day,S ,Active
+881,21,"Short-Sleeve Classic Jersey, S",SJ-0194-S,False,L ,U ,Yellow,Clothing,Jerseys,Short-Sleeve Classic Jersey,S,Centimeter,US pound,41.5723,53.99,Same Day,S ,Active
+882,21,"Short-Sleeve Classic Jersey, M",SJ-0194-M,False,L ,U ,Yellow,Clothing,Jerseys,Short-Sleeve Classic Jersey,M,Centimeter,US pound,41.5723,53.99,Same Day,S ,Active
+883,21,"Short-Sleeve Classic Jersey, L",SJ-0194-L,False,L ,U ,Yellow,Clothing,Jerseys,Short-Sleeve Classic Jersey,L,Centimeter,US pound,41.5723,53.99,Same Day,S ,Active
+884,21,"Short-Sleeve Classic Jersey, XL",SJ-0194-X,False,L ,U ,Yellow,Clothing,Jerseys,Short-Sleeve Classic Jersey,XL,Centimeter,US pound,41.5723,53.99,Same Day,S ,Active
+885,16,"HL Touring Frame - Yellow, 60",FR-T98Y-60,True,H ,U ,Yellow,Components,Touring Frames,HL Touring Frame,X,Centimeter,US pound,601.7437,1003.91,Within a Week,T ,Active
+886,16,"LL Touring Frame - Yellow, 62",FR-T67Y-62,True,L ,U ,Yellow,Components,Touring Frames,LL Touring Frame,XL,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+887,16,"HL Touring Frame - Yellow, 46",FR-T98Y-46,True,H ,U ,Yellow,Components,Touring Frames,HL Touring Frame,L,Centimeter,US pound,601.7437,1003.91,Within a Week,T ,Active
+888,16,"HL Touring Frame - Yellow, 50",FR-T98Y-50,True,H ,U ,Yellow,Components,Touring Frames,HL Touring Frame,L,Centimeter,US pound,601.7437,1003.91,Within a Week,T ,Active
+889,16,"HL Touring Frame - Yellow, 54",FR-T98Y-54,True,H ,U ,Yellow,Components,Touring Frames,HL Touring Frame,X,Centimeter,US pound,601.7437,1003.91,Within a Week,T ,Active
+890,16,"HL Touring Frame - Blue, 46",FR-T98U-46,True,H ,U ,Blue,Components,Touring Frames,HL Touring Frame,L,Centimeter,US pound,601.7437,1003.91,Within a Week,T ,Active
+891,16,"HL Touring Frame - Blue, 50",FR-T98U-50,True,H ,U ,Blue,Components,Touring Frames,HL Touring Frame,L,Centimeter,US pound,601.7437,1003.91,Within a Week,T ,Active
+892,16,"HL Touring Frame - Blue, 54",FR-T98U-54,True,H ,U ,Blue,Components,Touring Frames,HL Touring Frame,X,Centimeter,US pound,601.7437,1003.91,Within a Week,T ,Active
+893,16,"HL Touring Frame - Blue, 60",FR-T98U-60,True,H ,U ,Blue,Components,Touring Frames,HL Touring Frame,X,Centimeter,US pound,601.7437,1003.91,Within a Week,T ,Active
+894,9,Rear Derailleur,RD-2308,True,L ,U ,Silver,Components,Derailleurs,Rear Derailleur,XL,Centimeter,Gram,53.9282,121.46,Within a Week,Un,Active
+895,16,"LL Touring Frame - Blue, 50",FR-T67U-50,True,L ,U ,Blue,Components,Touring Frames,LL Touring Frame,L,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+896,16,"LL Touring Frame - Blue, 54",FR-T67U-54,True,L ,U ,Blue,Components,Touring Frames,LL Touring Frame,X,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+897,16,"LL Touring Frame - Blue, 58",FR-T67U-58,True,L ,U ,Blue,Components,Touring Frames,LL Touring Frame,X,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+898,16,"LL Touring Frame - Blue, 62",FR-T67U-62,True,L ,U ,Blue,Components,Touring Frames,LL Touring Frame,XL,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+899,16,"LL Touring Frame - Yellow, 44",FR-T67Y-44,True,L ,U ,Yellow,Components,Touring Frames,LL Touring Frame,L,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+900,16,"LL Touring Frame - Yellow, 50",FR-T67Y-50,True,L ,U ,Yellow,Components,Touring Frames,LL Touring Frame,L,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+901,16,"LL Touring Frame - Yellow, 54",FR-T67Y-54,True,L ,U ,Yellow,Components,Touring Frames,LL Touring Frame,X,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+902,16,"LL Touring Frame - Yellow, 58",FR-T67Y-58,True,L ,U ,Yellow,Components,Touring Frames,LL Touring Frame,X,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+903,16,"LL Touring Frame - Blue, 44",FR-T67U-44,True,L ,U ,Blue,Components,Touring Frames,LL Touring Frame,L,Centimeter,US pound,199.8519,333.42,Within a Week,T ,Active
+904,12,"ML Mountain Frame-W - Silver, 40",FR-M63S-40,True,M ,W ,Silver,Components,Mountain Frames,ML Mountain Frame-W,M,Centimeter,US pound,199.3757,364.09,Within a Week,M ,Active
+905,12,"ML Mountain Frame-W - Silver, 42",FR-M63S-42,True,M ,W ,Silver,Components,Mountain Frames,ML Mountain Frame-W,L,Centimeter,US pound,199.3757,364.09,Within a Week,M ,Active
+906,12,"ML Mountain Frame-W - Silver, 46",FR-M63S-46,True,M ,W ,Silver,Components,Mountain Frames,ML Mountain Frame-W,L,Centimeter,US pound,199.3757,364.09,Within a Week,M ,Active
+907,6,Rear Brakes,RB-9231,False,L ,U ,Silver,Components,Brakes,Rear Brakes,XL,Centimeter,Gram,47.286,106.5,Within a Week,Un,Active
+908,15,LL Mountain Seat/Saddle,SE-M236,False,L ,U ,Black,Components,Saddles,LL Mountain Seat/Saddle 2,XL,Centimeter,US pound,12.0413,27.12,Within a Week,M ,Active
+909,15,ML Mountain Seat/Saddle,SE-M798,False,M ,U ,Black,Components,Saddles,ML Mountain Seat/Saddle 2,XL,Centimeter,US pound,17.3782,39.14,Within a Week,M ,Active
+910,15,HL Mountain Seat/Saddle,SE-M940,False,H ,U ,Black,Components,Saddles,HL Mountain Seat/Saddle 2,XL,Centimeter,US pound,23.3722,52.64,Within a Week,M ,Active
+911,15,LL Road Seat/Saddle,SE-R581,False,L ,U ,Black,Components,Saddles,LL Road Seat/Saddle 1,XL,Centimeter,US pound,12.0413,27.12,Within a Week,R ,Active
+912,15,ML Road Seat/Saddle,SE-R908,False,M ,U ,Black,Components,Saddles,ML Road Seat/Saddle 2,XL,Centimeter,US pound,17.3782,39.14,Within a Week,T ,Active
+913,15,HL Road Seat/Saddle,SE-R995,False,H ,U ,Black,Components,Saddles,HL Road Seat/Saddle 2,XL,Centimeter,US pound,23.3722,52.64,Within a Week,R ,Active
+914,15,LL Touring Seat/Saddle,SE-T312,False,L ,U ,Black,Components,Saddles,LL Touring Seat/Saddle,XL,Centimeter,US pound,12.0413,27.12,Within a Week,T ,Active
+915,15,ML Touring Seat/Saddle,SE-T762,False,M ,U ,Black,Components,Saddles,ML Touring Seat/Saddle,XL,Centimeter,US pound,17.3782,39.14,Within a Week,T ,Active
+916,15,HL Touring Seat/Saddle,SE-T924,False,H ,U ,Black,Components,Saddles,HL Touring Seat/Saddle,XL,Centimeter,US pound,23.3722,52.64,Within a Week,T ,Active
+917,12,"LL Mountain Frame - Silver, 42",FR-M21S-42,True,L ,U ,Silver,Components,Mountain Frames,LL Mountain Frame,L,Centimeter,US pound,144.5938,264.05,Within a Week,M ,Active
+918,12,"LL Mountain Frame - Silver, 44",FR-M21S-44,True,L ,U ,Silver,Components,Mountain Frames,LL Mountain Frame,L,Centimeter,US pound,144.5938,264.05,Within a Week,M ,Active
+919,12,"LL Mountain Frame - Silver, 48",FR-M21S-48,True,L ,U ,Silver,Components,Mountain Frames,LL Mountain Frame,L,Centimeter,US pound,144.5938,264.05,Within a Week,M ,Active
+920,12,"LL Mountain Frame - Silver, 52",FR-M21S-52,True,L ,U ,Silver,Components,Mountain Frames,LL Mountain Frame,X,Centimeter,US pound,144.5938,264.05,Within a Week,M ,Active
+921,37,Mountain Tire Tube,TT-M928,False,L ,U ,Black,Accessories,Tires and Tubes,Mountain Tire Tube,XL,Centimeter,US pound,1.8663,4.99,Same Day,M ,Active
+922,37,Road Tire Tube,TT-R982,False,L ,U ,Black,Accessories,Tires and Tubes,Road Tire Tube,XL,Centimeter,US pound,1.4923,3.99,Same Day,R ,Active
+923,37,Touring Tire Tube,TT-T092,False,L ,U ,Black,Accessories,Tires and Tubes,Touring Tire Tube,XL,Centimeter,US pound,1.8663,4.99,Same Day,T ,Active
+924,12,"LL Mountain Frame - Black, 42",FR-M21B-42,True,L ,U ,Black,Components,Mountain Frames,LL Mountain Frame,L,Centimeter,US pound,136.785,249.79,Within a Week,M ,Active
+925,12,"LL Mountain Frame - Black, 44",FR-M21B-44,True,L ,U ,Black,Components,Mountain Frames,LL Mountain Frame,L,Centimeter,US pound,136.785,249.79,Within a Week,M ,Active
+926,12,"LL Mountain Frame - Black, 48",FR-M21B-48,True,L ,U ,Black,Components,Mountain Frames,LL Mountain Frame,L,Centimeter,US pound,136.785,249.79,Within a Week,M ,Active
+927,12,"LL Mountain Frame - Black, 52",FR-M21B-52,True,L ,U ,Black,Components,Mountain Frames,LL Mountain Frame,X,Centimeter,US pound,136.785,249.79,Within a Week,M ,Active
+928,37,LL Mountain Tire,TI-M267,False,L ,U ,Black,Accessories,Tires and Tubes,LL Mountain Tire,XL,Centimeter,US pound,9.3463,24.99,Same Day,M ,Active
+929,37,ML Mountain Tire,TI-M602,False,M ,U ,Black,Accessories,Tires and Tubes,ML Mountain Tire,XL,Centimeter,US pound,11.2163,29.99,Same Day,M ,Active
+930,37,HL Mountain Tire,TI-M823,False,H ,U ,Black,Accessories,Tires and Tubes,HL Mountain Tire,XL,Centimeter,US pound,13.09,35.0,Same Day,M ,Active
+931,37,LL Road Tire,TI-R092,False,L ,U ,Black,Accessories,Tires and Tubes,LL Road Tire,XL,Centimeter,US pound,8.0373,21.49,Same Day,R ,Active
+932,37,ML Road Tire,TI-R628,False,M ,U ,Black,Accessories,Tires and Tubes,ML Road Tire,XL,Centimeter,US pound,9.3463,24.99,Same Day,R ,Active
+933,37,HL Road Tire,TI-R982,False,H ,U ,Black,Accessories,Tires and Tubes,HL Road Tire,XL,Centimeter,US pound,12.1924,32.6,Same Day,R ,Active
+934,37,Touring Tire,TI-T723,False,L ,U ,Black,Accessories,Tires and Tubes,Touring Tire,XL,Centimeter,US pound,10.8423,28.99,Same Day,T ,Active
+935,13,LL Mountain Pedal,PD-M282,False,L ,U ,Silver/Black,Components,Pedals,LL Mountain Pedal,XL,Centimeter,Gram,17.9776,40.49,Within a Week,M ,Active
+936,13,ML Mountain Pedal,PD-M340,False,M ,U ,Silver/Black,Components,Pedals,ML Mountain Pedal,XL,Centimeter,Gram,27.568,62.09,Within a Week,M ,Active
+937,13,HL Mountain Pedal,PD-M562,False,H ,U ,Silver/Black,Components,Pedals,HL Mountain Pedal,XL,Centimeter,Gram,35.9596,80.99,Within a Week,M ,Active
+938,13,LL Road Pedal,PD-R347,False,L ,U ,Silver/Black,Components,Pedals,LL Road Pedal,XL,Centimeter,Gram,17.9776,40.49,Within a Week,R ,Active
+939,13,ML Road Pedal,PD-R563,False,M ,U ,Silver/Black,Components,Pedals,ML Road Pedal,XL,Centimeter,Gram,27.568,62.09,Within a Week,R ,Active
+940,13,HL Road Pedal,PD-R853,False,H ,U ,Silver/Black,Components,Pedals,HL Road Pedal,XL,Centimeter,Gram,35.9596,80.99,Within a Week,R ,Active
+941,13,Touring Pedal,PD-T852,False,L ,U ,Silver/Black,Components,Pedals,Touring Pedal,XL,Centimeter,US pound,35.9596,80.99,Within a Week,T ,Active
+942,12,"ML Mountain Frame-W - Silver, 38",FR-M63S-38,True,M ,W ,Silver,Components,Mountain Frames,ML Mountain Frame-W,M,Centimeter,US pound,199.3757,364.09,Within a Week,M ,Active
+943,12,"LL Mountain Frame - Black, 40",FR-M21B-40,True,L ,U ,Black,Components,Mountain Frames,LL Mountain Frame,M,Centimeter,US pound,136.785,249.79,Within a Week,M ,Active
+944,12,"LL Mountain Frame - Silver, 40",FR-M21S-40,True,L ,U ,Silver,Components,Mountain Frames,LL Mountain Frame,M,Centimeter,US pound,144.5938,264.05,Within a Week,M ,Active
+945,9,Front Derailleur,FD-2342,True,L ,U ,Silver,Components,Derailleurs,Front Derailleur,XL,Centimeter,Gram,40.6216,91.49,Within a Week,Un,Active
+946,4,LL Touring Handlebars,HB-T721,True,L ,U ,Black,Components,Handlebars,LL Touring Handlebars,XL,Centimeter,US pound,20.464,46.09,Within a Week,T ,Active
+947,4,HL Touring Handlebars,HB-T928,True,H ,U ,Black,Components,Handlebars,HL Touring Handlebars,XL,Centimeter,US pound,40.6571,91.57,Within a Week,T ,Active
+948,6,Front Brakes,FB-9873,False,L ,U ,Silver,Components,Brakes,Front Brakes,XL,Centimeter,Gram,47.286,106.5,Within a Week,Un,Active
+949,8,LL Crankset,CS-4759,True,L ,U ,Black,Components,Cranksets,LL Crankset,XL,Centimeter,Gram,77.9176,175.49,Within a Week,Un,Active
+950,8,ML Crankset,CS-6583,True,M ,U ,Black,Components,Cranksets,ML Crankset,XL,Centimeter,Gram,113.8816,256.49,Within a Week,Un,Active
+951,8,HL Crankset,CS-9183,True,H ,U ,Black,Components,Cranksets,HL Crankset,XL,Centimeter,Gram,179.8156,404.99,Within a Week,Un,Active
+952,7,Chain,CH-0234,False,L ,U ,Silver,Components,Chains,Chain,XL,Centimeter,US pound,8.9866,20.24,Within a Week,Un,Active
+953,3,"Touring-2000 Blue, 60",BK-T44U-60,True,M ,U ,Blue,Bikes,Touring Bikes,Touring-2000,X,Centimeter,US pound,755.1508,1214.85,Within a Week,T ,Active
+954,3,"Touring-1000 Yellow, 46",BK-T79Y-46,True,H ,U ,Yellow,Bikes,Touring Bikes,Touring-1000,L,Centimeter,US pound,1481.9379,2384.07,Within a Week,T ,Active
+955,3,"Touring-1000 Yellow, 50",BK-T79Y-50,True,H ,U ,Yellow,Bikes,Touring Bikes,Touring-1000,L,Centimeter,US pound,1481.9379,2384.07,Within a Week,T ,Active
+956,3,"Touring-1000 Yellow, 54",BK-T79Y-54,True,H ,U ,Yellow,Bikes,Touring Bikes,Touring-1000,X,Centimeter,US pound,1481.9379,2384.07,Within a Week,T ,Active
+957,3,"Touring-1000 Yellow, 60",BK-T79Y-60,True,H ,U ,Yellow,Bikes,Touring Bikes,Touring-1000,X,Centimeter,US pound,1481.9379,2384.07,Within a Week,T ,Active
+958,3,"Touring-3000 Blue, 54",BK-T18U-54,True,L ,U ,Blue,Bikes,Touring Bikes,Touring-3000,X,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+959,3,"Touring-3000 Blue, 58",BK-T18U-58,True,L ,U ,Blue,Bikes,Touring Bikes,Touring-3000,X,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+960,3,"Touring-3000 Blue, 62",BK-T18U-62,True,L ,U ,Blue,Bikes,Touring Bikes,Touring-3000,XL,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+961,3,"Touring-3000 Yellow, 44",BK-T18Y-44,True,L ,U ,Yellow,Bikes,Touring Bikes,Touring-3000,L,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+962,3,"Touring-3000 Yellow, 50",BK-T18Y-50,True,L ,U ,Yellow,Bikes,Touring Bikes,Touring-3000,L,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+963,3,"Touring-3000 Yellow, 54",BK-T18Y-54,True,L ,U ,Yellow,Bikes,Touring Bikes,Touring-3000,X,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+964,3,"Touring-3000 Yellow, 58",BK-T18Y-58,True,L ,U ,Yellow,Bikes,Touring Bikes,Touring-3000,X,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+965,3,"Touring-3000 Yellow, 62",BK-T18Y-62,True,L ,U ,Yellow,Bikes,Touring Bikes,Touring-3000,XL,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+966,3,"Touring-1000 Blue, 46",BK-T79U-46,True,H ,U ,Blue,Bikes,Touring Bikes,Touring-1000,L,Centimeter,US pound,1481.9379,2384.07,Within a Week,T ,Active
+967,3,"Touring-1000 Blue, 50",BK-T79U-50,True,H ,U ,Blue,Bikes,Touring Bikes,Touring-1000,L,Centimeter,US pound,1481.9379,2384.07,Within a Week,T ,Active
+968,3,"Touring-1000 Blue, 54",BK-T79U-54,True,H ,U ,Blue,Bikes,Touring Bikes,Touring-1000,X,Centimeter,US pound,1481.9379,2384.07,Within a Week,T ,Active
+969,3,"Touring-1000 Blue, 60",BK-T79U-60,True,H ,U ,Blue,Bikes,Touring Bikes,Touring-1000,X,Centimeter,US pound,1481.9379,2384.07,Within a Week,T ,Active
+970,3,"Touring-2000 Blue, 46",BK-T44U-46,True,M ,U ,Blue,Bikes,Touring Bikes,Touring-2000,L,Centimeter,US pound,755.1508,1214.85,Within a Week,T ,Active
+971,3,"Touring-2000 Blue, 50",BK-T44U-50,True,M ,U ,Blue,Bikes,Touring Bikes,Touring-2000,L,Centimeter,US pound,755.1508,1214.85,Within a Week,T ,Active
+972,3,"Touring-2000 Blue, 54",BK-T44U-54,True,M ,U ,Blue,Bikes,Touring Bikes,Touring-2000,X,Centimeter,US pound,755.1508,1214.85,Within a Week,T ,Active
+973,2,"Road-350-W Yellow, 40",BK-R79Y-40,True,M ,W ,Yellow,Bikes,Road Bikes,Road-350-W,M,Centimeter,US pound,1082.51,1700.99,Within a Week,R ,Active
+974,2,"Road-350-W Yellow, 42",BK-R79Y-42,True,M ,W ,Yellow,Bikes,Road Bikes,Road-350-W,L,Centimeter,US pound,1082.51,1700.99,Within a Week,R ,Active
+975,2,"Road-350-W Yellow, 44",BK-R79Y-44,True,M ,W ,Yellow,Bikes,Road Bikes,Road-350-W,L,Centimeter,US pound,1082.51,1700.99,Within a Week,R ,Active
+976,2,"Road-350-W Yellow, 48",BK-R79Y-48,True,M ,W ,Yellow,Bikes,Road Bikes,Road-350-W,L,Centimeter,US pound,1082.51,1700.99,Within a Week,R ,Active
+977,2,"Road-750 Black, 58",BK-R19B-58,True,L ,U ,Black,Bikes,Road Bikes,Road-750,X,Centimeter,US pound,343.6496,539.99,Within a Week,R ,Active
+978,3,"Touring-3000 Blue, 44",BK-T18U-44,True,L ,U ,Blue,Bikes,Touring Bikes,Touring-3000,L,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+979,3,"Touring-3000 Blue, 50",BK-T18U-50,True,L ,U ,Blue,Bikes,Touring Bikes,Touring-3000,L,Centimeter,US pound,461.4448,742.35,Within a Week,T ,Active
+980,1,"Mountain-400-W Silver, 38",BK-M38S-38,True,M ,W ,Silver,Bikes,Mountain Bikes,Mountain-400-W,M,Centimeter,US pound,419.7784,769.49,Within a Week,M ,Active
+981,1,"Mountain-400-W Silver, 40",BK-M38S-40,True,M ,W ,Silver,Bikes,Mountain Bikes,Mountain-400-W,M,Centimeter,US pound,419.7784,769.49,Within a Week,M ,Active
+982,1,"Mountain-400-W Silver, 42",BK-M38S-42,True,M ,W ,Silver,Bikes,Mountain Bikes,Mountain-400-W,L,Centimeter,US pound,419.7784,769.49,Within a Week,M ,Active
+983,1,"Mountain-400-W Silver, 46",BK-M38S-46,True,M ,W ,Silver,Bikes,Mountain Bikes,Mountain-400-W,L,Centimeter,US pound,419.7784,769.49,Within a Week,M ,Active
+984,1,"Mountain-500 Silver, 40",BK-M18S-40,True,L ,U ,Silver,Bikes,Mountain Bikes,Mountain-500,M,Centimeter,US pound,308.2179,564.99,Within a Week,M ,Active
+985,1,"Mountain-500 Silver, 42",BK-M18S-42,True,L ,U ,Silver,Bikes,Mountain Bikes,Mountain-500,L,Centimeter,US pound,308.2179,564.99,Within a Week,M ,Active
+986,1,"Mountain-500 Silver, 44",BK-M18S-44,True,L ,U ,Silver,Bikes,Mountain Bikes,Mountain-500,L,Centimeter,US pound,308.2179,564.99,Within a Week,M ,Active
+987,1,"Mountain-500 Silver, 48",BK-M18S-48,True,L ,U ,Silver,Bikes,Mountain Bikes,Mountain-500,L,Centimeter,US pound,308.2179,564.99,Within a Week,M ,Active
+988,1,"Mountain-500 Silver, 52",BK-M18S-52,True,L ,U ,Silver,Bikes,Mountain Bikes,Mountain-500,X,Centimeter,US pound,308.2179,564.99,Within a Week,M ,Active
+989,1,"Mountain-500 Black, 40",BK-M18B-40,True,L ,U ,Black,Bikes,Mountain Bikes,Mountain-500,M,Centimeter,US pound,294.5797,539.99,Within a Week,M ,Active
+990,1,"Mountain-500 Black, 42",BK-M18B-42,True,L ,U ,Black,Bikes,Mountain Bikes,Mountain-500,L,Centimeter,US pound,294.5797,539.99,Within a Week,M ,Active
+991,1,"Mountain-500 Black, 44",BK-M18B-44,True,L ,U ,Black,Bikes,Mountain Bikes,Mountain-500,L,Centimeter,US pound,294.5797,539.99,Within a Week,M ,Active
+992,1,"Mountain-500 Black, 48",BK-M18B-48,True,L ,U ,Black,Bikes,Mountain Bikes,Mountain-500,L,Centimeter,US pound,294.5797,539.99,Within a Week,M ,Active
+993,1,"Mountain-500 Black, 52",BK-M18B-52,True,L ,U ,Black,Bikes,Mountain Bikes,Mountain-500,X,Centimeter,US pound,294.5797,539.99,Within a Week,M ,Active
+994,5,LL Bottom Bracket,BB-7421,True,L ,U ,Black,Components,Bottom Brackets,LL Bottom Bracket,XL,Centimeter,Gram,23.9716,53.99,Within a Week,Un,Active
+995,5,ML Bottom Bracket,BB-8107,True,M ,U ,Black,Components,Bottom Brackets,ML Bottom Bracket,XL,Centimeter,Gram,44.9506,101.24,Within a Week,Un,Active
+996,5,HL Bottom Bracket,BB-9108,True,H ,U ,Black,Components,Bottom Brackets,HL Bottom Bracket,XL,Centimeter,Gram,53.9416,121.49,Within a Week,Un,Active
+997,2,"Road-750 Black, 44",BK-R19B-44,True,L ,U ,Black,Bikes,Road Bikes,Road-750,L,Centimeter,US pound,343.6496,539.99,Within a Week,R ,Active
+998,2,"Road-750 Black, 48",BK-R19B-48,True,L ,U ,Black,Bikes,Road Bikes,Road-750,L,Centimeter,US pound,343.6496,539.99,Within a Week,R ,Active
+999,2,"Road-750 Black, 52",BK-R19B-52,True,L ,U ,Black,Bikes,Road Bikes,Road-750,X,Centimeter,US pound,343.6496,539.99,Within a Week,R ,Active

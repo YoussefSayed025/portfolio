@@ -1,0 +1,15 @@
+Location ID,Location Name,Cost Rate,Availability,Type
+1,Tool Crib,0.0,0.0,Storage
+2,Sheet Metal Racks,0.0,0.0,Storage
+3,Paint Shop,0.0,0.0,Storage
+4,Paint Storage,0.0,0.0,Storage
+5,Metal Storage,0.0,0.0,Storage
+6,Miscellaneous Storage,0.0,0.0,Storage
+7,Finished Goods Storage,0.0,0.0,Storage
+10,Frame Forming,22.5,96.0,Production
+20,Frame Welding,25.0,108.0,Production
+30,Debur and Polish,14.5,120.0,Production
+40,Paint,15.75,120.0,Production
+45,Specialized Paint,18.0,80.0,Production
+50,Subassembly,12.25,120.0,Production
+60,Final Assembly,12.25,120.0,Production

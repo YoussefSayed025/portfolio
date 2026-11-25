@@ -1,0 +1,7 @@
+﻿Status ID,Status Name
+1,In Process
+2,Approved
+3,Backordered
+4,Rejected
+5,Shipped
+6,Cancelled
