@@ -10,4 +10,4 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - run: pip install gdown && gdown "1BtjbdgqraMSjjfzfc3wRRtIyzJqiL3z9" -O theme.zip && unzip -o theme.zip && rm -f theme.zip && git rm -f --ignore-unmatch aa ab bundle.zip update.zip site-update.zip patch_index.py && git config user.email "bot@users.noreply.github.com" && git config user.name "ship-bot" && git add -A && git commit -m "Add dark/light mode toggle across all pages; remove ship artifacts" && git push
+      - run: pip install gdown && gdown "13I-qWjtbHL_pRTv1L7tr6fePbvlJdb0M" -O theme.zip && unzip -o theme.zip && rm -f theme.zip && git rm -f --ignore-unmatch aa ab bundle.zip update.zip site-update.zip patch_index.py && git config user.email "bot@users.noreply.github.com" && git config user.name "ship-bot" && git add -A && git commit -m "Add dark/light mode toggle across all pages; remove ship artifacts" && git push
