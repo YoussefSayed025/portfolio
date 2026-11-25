@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HR analytics dashboard · Youssef Sayed Hawass</title>
+<style>
+:root{--bg:#070a14;--card:rgba(18,26,58,.6);--card-hover:rgba(26,36,72,.75);--line:rgba(226,184,74,.22);--gold:#e2b84a;--gold-dim:#a8842c;--text:#f2efe6;--mute:#a9b0c8;--radius:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(1100px 750px at 88% 0%,rgba(226,184,74,.10),transparent 55%),radial-gradient(1000px 700px at 5% 40%,rgba(48,72,168,.20),transparent 55%),radial-gradient(900px 650px at 100% 100%,rgba(226,184,74,.06),transparent 50%),linear-gradient(180deg,#070a14 0%,#0b1230 50%,#070a14 100%)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px;width:100%}
+header{padding:28px 0;border-bottom:1px solid var(--line);margin-bottom:40px}
+.back{color:var(--gold);font-weight:600}
+h1{font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.2;font-weight:800;margin:10px 0 14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.tag{border:1px solid var(--line);color:var(--gold);border-radius:999px;padding:3px 12px;font-size:.82rem}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:36px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-align:center}
+.kpi b{display:block;font-size:1.5rem;color:var(--gold)}
+.kpi span{color:var(--mute);font-size:.85rem}
+.story{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:44px}
+.story div{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.story h3{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.story p{color:var(--mute);font-size:.95rem}
+h2{font-size:1.4rem;margin-bottom:18px}
+.pages-list{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:26px}
+.pages-list li{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;color:var(--mute);font-size:.95rem}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:34px 0 60px}
+.btn{display:inline-block;border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:10px 22px;font-weight:600}
+.btn:hover{background:var(--gold);color:#0b1230}
+footer{border-top:1px solid var(--line);padding:22px 0;color:var(--mute);font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="back" href="../../index.html#category-analysis">&larr; Back to portfolio</a></header>
+<h1>HR analytics dashboard</h1>
+<div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">DEPI graduation project</span></div>
+<div class="kpis"><div class="kpi"><b>1,470</b><span>employees analyzed</span></div><div class="kpi"><b>3.53</b><span>overall satisfaction score</span></div><div class="kpi"><b>9 pages</b><span>of dashboards</span></div></div>
+<div class="story">
+<div><h3>The problem</h3><p>Which roles, departments and age groups drive attrition, and what shapes salaries and satisfaction?</p></div>
+<div><h3>My approach</h3><p>Built a nine-page Power BI report on a star-schema HR dataset (fPerformanceRating fact table) with DAX measures and drill-through tooltips.</p></div>
+<div><h3>The result</h3><p>Attrition is highest among sales roles aged 25-34 with under 2 years of tenure; tech consumes 64% of the salary budget; satisfaction averages 3.53.</p></div>
+</div>
+<h2>Dashboard pages</h2>
+<ul class="pages-list"><li>Home</li><li>Overview</li><li>Attrition</li><li>Performance vs Training Effectiveness</li><li>Satisfaction</li><li>Salaries</li><li>Employees States</li><li>Q &amp; A</li></ul>
+<div class="actions"><a class="btn" href="https://github.com/YoussefSayed025/portfolio/tree/main/projects/hr-analytics" target="_blank" rel="noopener">Source on GitHub &nearr;</a></div>
+<footer>Part of <a href="../../index.html" style="color:var(--gold)">Youssef Sayed Hawass's data portfolio</a>.</footer>
+</div>
+</body>
+</html>
