@@ -1,0 +1,19 @@
+name: ship-pr
+on: [push]
+permissions:
+  contents: write
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install gdown
+      - run: gdown 1hCBPtHqv_pK9ofNe5EQSqstClFXJNe-T -O ship.zip
+      - run: unzip -o ship.zip -d .
+      - run: rm -f projects/profit-returns/NTI-grad-project.pptx projects/profit-returns/pages/08.webp
+      - run: |
+          git config user.email "action@github.com"
+          git config user.name "github-actions"
+          git add -A
+          git commit -m "add profit dashboard gallery, swap NTI deck for cleaned PDF"
+          git push
