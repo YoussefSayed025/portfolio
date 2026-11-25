@@ -778,7 +778,7 @@ section:not(.hero) > .wrap { margin: 0 auto; }
 
 /* slide-deck project cards */
 .shot.deck { position: relative; height: auto; aspect-ratio: 16 / 9; padding: 0; overflow: hidden; display: block; cursor: pointer; background: #070a14; }
-.deck .track { display: flex; height: 100%; width: 100%; transition: transform .7s cubic-bezier(.65,0,.35,1); }
+.deck .track { display: flex; height: 100%; width: 100%; transition: transform .45s cubic-bezier(.65,0,.35,1); }
 .shot.deck img { width: 100%; height: 100%; flex: 0 0 100%; object-fit: cover; }
 .deck-hint, .deck-count { position: absolute; bottom: 10px; font-size: .78rem; font-weight: 600; padding: 4px 11px; border-radius: 99px; background: rgba(7,10,20,.78); color: var(--gold); border: 1px solid rgba(226,184,74,.4); pointer-events: none; }
 .deck-hint { left: 10px; transition: opacity .25s; }
@@ -1782,7 +1782,7 @@ projects.filter(p=>p.slides).forEach(p=>{
   const count=document.createElement('span');count.className='deck-count';count.textContent='1 / '+p.slides.n;el.appendChild(count);
   let idx=0,timer=null;
   const go=i=>{idx=(i+p.slides.n)%p.slides.n;track.style.transform='translateX(-'+(idx*100)+'%)';count.textContent=(idx+1)+' / '+p.slides.n;};
-  const start=()=>{if(timer||!window.matchMedia('(hover:hover)').matches)return;el.classList.add('playing');timer=setInterval(()=>go(idx+1),1400);};
+  const start=()=>{if(timer||!window.matchMedia('(hover:hover)').matches)return;el.classList.add('playing');timer=setInterval(()=>go(idx+1),900);};
   const stop=()=>{clearInterval(timer);timer=null;el.classList.remove('playing');go(0);};
   el.addEventListener('mouseenter',start);
   el.addEventListener('mouseleave',stop);
