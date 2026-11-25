@@ -23,7 +23,7 @@ Python (cleaning, merging, EDA) -> Power Query (shaping) -> Power BI (calendar-t
 ## Contents
 - `grad-project.pbix` - the Power BI report (8 pages)
 - `src/grad-project.ipynb` - the Python cleaning and analysis notebook
-- `NTI-grad-project.pptx` + `docs/presentation.pdf` - the 54-slide project deck
+- `docs/presentation.pdf` - the 54-slide project deck
 - `docs/data-dictionary.md` - the source tables, column by column
 - `data/` - the source data: Sales 1997.csv, Sales 1998.csv, Sales 1999.csv, Customers.csv, Products.csv, Stores.csv, Region.csv, Returns.csv
 - `pages/` - dashboard page screenshots
