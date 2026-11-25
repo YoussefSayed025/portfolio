@@ -1,0 +1,13 @@
+name: ship-coffee
+on:
+  push:
+    paths:
+      - .github/workflows/ship-coffee.yml
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install gdown && gdown --fuzzy "https://drive.google.com/file/d/1H2Zu1ircQW2tMza0XKhrCPGkS4hb61aY/view" -O bundle.zip && unzip -o bundle.zip && git config user.email "bot@users.noreply.github.com" && git config user.name "ship-bot" && git add -A && git commit -m "Ship coffee-sales project files" && git push
