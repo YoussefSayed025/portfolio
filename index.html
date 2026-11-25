@@ -186,6 +186,22 @@ nav .wrap {
   cursor: pointer;
 }
 
+
+/* hero bg chart */
+.hero { position: relative; overflow: hidden; }
+.hero .wrap { position: relative; z-index: 1; }
+.hero-chart { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 46%; min-height: 230px; z-index: 0; pointer-events: none; }
+.hero-chart .area { opacity: .55; animation: hc-fade 1.4s ease .9s both; }
+.hero-chart .line { fill: none; stroke: var(--gold); stroke-width: 2.5; stroke-linecap: round; opacity: .6; stroke-dasharray: 1900; stroke-dashoffset: 0; animation: hc-draw 1.7s cubic-bezier(.4,0,.2,1) .25s both; }
+.hero-chart .trend { fill: none; stroke: var(--gold); stroke-width: 2; stroke-dasharray: 1 8; stroke-linecap: round; opacity: .45; animation: hc-fade 1.2s ease 1.6s both; }
+.hero-chart .dot { fill: var(--gold); animation: hc-pop .45s cubic-bezier(.34,1.56,.64,1) both; }
+html[data-theme="light"] .hero-chart .area { opacity: .42; }
+html[data-theme="light"] .hero-chart .line { opacity: .5; }
+@keyframes hc-draw { from { stroke-dashoffset: 1900; } }
+@keyframes hc-fade { from { opacity: 0; } }
+@keyframes hc-pop { from { opacity: 0; transform: scale(0); } }
+@media (max-width: 900px) { .hero-chart { height: 34%; min-height: 170px; } }
+
 /* HERO */
 .hero {
   min-height: 100vh;
@@ -1089,6 +1105,20 @@ html[dir=rtl] .about-box ul,html[dir=rtl] .tl-item ul,html[dir=rtl] .activity-ca
 <div aria-label="My services and samples of my work" class="ticker" id="top"><div class="ticker-track" id="ticker-track"></div></div>
 <!-- HERO -->
 <section class="hero">
+<svg class="hero-chart" viewBox="0 0 1440 360" preserveAspectRatio="none" aria-hidden="true">
+<defs><linearGradient id="hcGold" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" style="stop-color:var(--gold);stop-opacity:.4"/>
+<stop offset="1" style="stop-color:var(--gold);stop-opacity:0"/>
+</linearGradient></defs>
+<path class="area" style="fill:url(#hcGold)" d="M0,330 C120,322 200,296 300,300 C400,304 460,268 560,258 C660,248 720,282 820,240 C920,198 1000,214 1100,160 C1200,106 1320,110 1440,48 L1440,360 L0,360 Z"/>
+<path class="line" d="M0,330 C120,322 200,296 300,300 C400,304 460,268 560,258 C660,248 720,282 820,240 C920,198 1000,214 1100,160 C1200,106 1320,110 1440,48"/>
+<path class="trend" d="M960,250 C1060,232 1180,168 1300,96"/>
+<circle class="dot" cx="300" cy="300" r="4.5" style="animation-delay:1.05s"/>
+<circle class="dot" cx="560" cy="258" r="4.5" style="animation-delay:1.3s"/>
+<circle class="dot" cx="820" cy="240" r="4.5" style="animation-delay:1.5s"/>
+<circle class="dot" cx="1100" cy="160" r="4.5" style="animation-delay:1.75s"/>
+<circle class="dot" cx="1380" cy="64" r="5" style="animation-delay:2s"/>
+</svg>
 <div class="wrap">
 <div class="hero-grid">
 <div class="hero-content">
