@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install gdown && gdown 1BsMs0eSsxCs1mTro8de0DiQIjDdLs3nG -O /tmp/s.zip && unzip -o /tmp/s.zip -d .
-      - run: git config user.email "action@github.com" && git config user.name "github-actions" && git add -A && git commit -m "Arabic mode audit: translate remaining strings, fix title and counts" && git push
+      - run: git config user.email "action@github.com" && git config user.name "github-actions" && git add -A && git commit -m "Arabic mode audit translations and fixes" && git push
