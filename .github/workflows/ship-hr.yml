@@ -1,0 +1,13 @@
+name: ship-hr
+on:
+  push:
+    paths:
+      - .github/workflows/ship-hr.yml
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install gdown && gdown "1NdDX1wkNju4ni4pC8io6cZUewmHyy707" -O bundle.zip && unzip -o bundle.zip && git config user.email "bot@users.noreply.github.com" && git config user.name "ship-bot" && git add -A && git commit -m "Ship hr-analytics project files" && git push
