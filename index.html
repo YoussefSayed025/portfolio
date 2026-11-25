@@ -1815,13 +1815,25 @@ projects.filter(p=>p.slides).forEach(p=>{
  };
  probe.src=p.slides.dir+'/01.webp';
 });
-const ticker=document.getElementById('ticker-track');
-const tickerText=cats.map(c=>`<a class="tk-item tk-text" href="#category-${c.id}">${esc(c.t)}</a>`).join('');
-ticker.innerHTML=tickerText;
-const tickerUnit=ticker.scrollWidth||1;
-const tickerReps=Math.max(1,Math.ceil((ticker.parentElement.clientWidth||window.innerWidth)/tickerUnit));
-ticker.innerHTML=tickerText.repeat(tickerReps)+tickerText.repeat(tickerReps);
-ticker.style.animationDuration=(80*tickerReps)+'s';
+function buildTicker(){
+  const ticker=document.getElementById('ticker-track');
+  if(!ticker)return;
+  const tickerText=cats.map(c=>`<a class="tk-item tk-text" href="#category-${c.id}">${esc(c.t)}</a>`).join('');
+  ticker.innerHTML=tickerText;
+  if(typeof retext==='function')retext();
+  const tickerUnit=ticker.scrollWidth||1;
+  const tickerReps=Math.max(1,Math.ceil(((ticker.parentElement.clientWidth||window.innerWidth)+8)/tickerUnit));
+  ticker.innerHTML=tickerText.repeat(tickerReps)+tickerText.repeat(tickerReps);
+  if(typeof retext==='function')retext();
+  ticker.style.animation='none';
+  void ticker.offsetWidth;
+  ticker.style.animation='';
+  ticker.style.animationDuration=(80*tickerReps)+'s';
+}
+buildTicker();
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(buildTicker);
+let tickerRz=null;
+window.addEventListener('resize',()=>{clearTimeout(tickerRz);tickerRz=setTimeout(buildTicker,250);});
 const viewer=document.getElementById('image-viewer'),full=document.getElementById('image-full'),title=document.getElementById('image-title'),close=document.getElementById('image-close');
 let previousFocus=null,currentSlides=null,slideIndex=0;
 function showImage(src,alt){previousFocus=document.activeElement;full.src=src;full.alt=alt;title.textContent=alt;viewer.hidden=false;document.body.style.overflow='hidden';close.focus();}
@@ -1863,6 +1875,7 @@ function setLang(l){
   document.getElementById("wa").href=wl;document.getElementById("wa-hero").href=wl;
   emMail.href="mailto:"+EMAIL+"?subject="+encodeURIComponent((l==='ar')?'استفسار عن مشروع':'Project inquiry');
   retext();
+  if(typeof buildTicker==='function')buildTicker();
   document.getElementById('lang-toggle').textContent=(l==='ar')?'EN':'عربي';
   try{localStorage.setItem('yh-lang',l);}catch(e){}
 }
