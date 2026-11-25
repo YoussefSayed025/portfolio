@@ -8,7 +8,7 @@ End-to-end analysis of AdventureWorks sales operations and supply chain: 12 dime
 - How do sales trend over time, and what does the forecast show?
 
 ## Tools & methodology
-SQL and Python for cleaning and modeling (star schema with F_Sales, F_Transaction_History, F_Purchasing and F_Inventory_Snapshot fact tables), Power BI for the dashboard, Tableau for companion views. Full methodology in `docs/Documentation.pdf` and the question set in `docs/Project-Description.pdf`.
+SQL and Python for cleaning and modeling (star schema with F_Sales, F_Transaction_History, F_Purchasing and F_Inventory_Snapshot fact tables), Power BI for the dashboard, Tableau for companion views. Full methodology in `docs/Documentation.pdf`.
 
 ## Key findings
 - $9M net profit on $100M sales (9% margin): high costs absorb 91% of revenue.
@@ -18,7 +18,7 @@ SQL and Python for cleaning and modeling (star schema with F_Sales, F_Transactio
 ## Contents
 - `AdventureWorks Dashboard.pbix` - the Power BI report
 - `docs/presentation.pdf` - the 78-slide project deck
-- `docs/Documentation.pdf`, `docs/Project-Description.pdf`
+- `docs/Documentation.pdf`
 - `data/csv/` - 12 dimension + 4 fact tables
 - `data/excel/FinalProject.xlsx` - the analysis workbook
 - `data/tableau/` - Tableau extracts and queries
