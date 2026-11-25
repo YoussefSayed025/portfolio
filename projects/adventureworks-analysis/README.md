@@ -17,7 +17,7 @@ SQL and Python for cleaning and modeling (star schema with F_Sales, F_Transactio
 
 ## Contents
 - `AdventureWorks Dashboard.pbix` - the Power BI report
-- `docs/presentation.pdf` / `docs/DEPI-Final-Project.pptx` - the 77-slide graduation deck
+- `docs/presentation.pdf` - the 78-slide project deck
 - `docs/Documentation.pdf`, `docs/Project-Description.pdf`
 - `data/csv/` - 12 dimension + 4 fact tables
 - `data/excel/FinalProject.xlsx` - the analysis workbook
