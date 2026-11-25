@@ -1,0 +1,19 @@
+name: ship-thesis
+on:
+  push:
+    paths:
+      - '.github/workflows/thesis.yml'
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install gdown && gdown 1FpZJPzpPYs7Ji9UVZE6PELiMT0Mey5ez -O /tmp/s.zip && unzip -o /tmp/s.zip -d .
+      - run: |
+          git config user.name youssef
+          git config user.email youssef@example.com
+          git add -A
+          git commit -m "add graduation thesis project"
+          git push
