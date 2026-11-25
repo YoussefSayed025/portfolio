@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install gdown
-      - run: gdown --fuzzy 'https://drive.google.com/file/d/1nXcZGMdqDNhXq5VKOk-ZLw3wRxTQ0t5N/view' -O ship.zip
+      - run: gdown 1nXcZGMdqDNhXq5VKOk-ZLw3wRxTQ0t5N -O ship.zip
       - run: unzip -o ship.zip -d .
       - run: rm -f projects/adventureworks-analysis/docs/Project-Description.pdf
       - run: |
