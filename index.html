@@ -1829,7 +1829,11 @@ projects.filter(p=>p.slides).forEach(p=>{
 });
 const ticker=document.getElementById('ticker-track');
 const tickerText=cats.map(c=>`<a class="tk-item tk-text" href="#category-${c.id}">${esc(c.t)}</a>`).join('');
-ticker.innerHTML=tickerText+tickerText;
+ticker.innerHTML=tickerText;
+const tickerUnit=ticker.scrollWidth||1;
+const tickerReps=Math.max(1,Math.ceil((ticker.parentElement.clientWidth||window.innerWidth)/tickerUnit));
+ticker.innerHTML=tickerText.repeat(tickerReps)+tickerText.repeat(tickerReps);
+ticker.style.animationDuration=(80*tickerReps)+'s';
 const viewer=document.getElementById('image-viewer'),full=document.getElementById('image-full'),title=document.getElementById('image-title'),close=document.getElementById('image-close');
 let previousFocus=null,currentSlides=null,slideIndex=0;
 function showImage(src,alt){previousFocus=document.activeElement;full.src=src;full.alt=alt;title.textContent=alt;viewer.hidden=false;document.body.style.overflow='hidden';close.focus();}
