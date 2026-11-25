@@ -1,0 +1,20 @@
+name: tmp-pr-data
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          pip install gdown
+          gdown 1Npg9CwoMEjLcFAMnqnl4ubEQbDCxBnOg -O /tmp/ship.zip
+          unzip -o /tmp/ship.zip -d .
+          git rm -q projects/profit-returns/SQLQuery1.sql projects/profit-returns/SQLQuery2.sql projects/profit-returns/grad-project.ipynb
+          git config user.name youssef-bot
+          git config user.email bot@local
+          git add -A
+          git commit -m 'Profit-returns: add source data + docs, reorganize into src/docs, remove SQL work'
+          git push
