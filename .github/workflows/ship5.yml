@@ -12,7 +12,6 @@ jobs:
       - run: unzip -o ship.zip -d .
       - run: rm -rf projects/hr-trends
       - run: rm -f projects/profit-returns/grad-project.pbix projects/profit-returns/src/grad-project.ipynb projects/hr-analytics/DEPI-FINAL-PROJECT.pptx
-      - run: rm -f .github/workflows/ship2.yml .github/workflows/ship3.yml .github/workflows/ship4.yml .github/workflows/ship5.yml
       - run: |
           git config user.email "action@github.com"
           git config user.name "github-actions"
