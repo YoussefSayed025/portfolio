@@ -8,7 +8,7 @@ Nine-page Power BI report on employee attrition, performance, satisfaction, sala
 - What drives employee satisfaction and performance?
 
 ## Tools & methodology
-Power BI (data model with fPerformanceRating as the fact table, DAX measures, drill-through tooltips) with data preparation documented in `docs/guide-book.pdf`. The full question set is in `docs/analysis-questions.docx`.
+Power BI (data model with fPerformanceRating as the fact table, DAX measures, drill-through tooltips).
 
 ## Key findings
 - Attrition is highest among sales representatives and recruiters, in the 25-34 age group, and for employees with under 2 years of experience.
@@ -19,8 +19,6 @@ Power BI (data model with fPerformanceRating as the fact table, DAX measures, dr
 - `HR Analytics Dashboard.pbix` - the Power BI report (9 pages: Home, Overview, Attrition, Performance vs Training, Satisfaction, Salaries, Employees States, Tooltip, Q&A)
 - `data/` - the HR dataset (Employee, PerformanceRating and lookup tables)
 - `docs/presentation.pdf` - the project deck
-- `docs/analysis-questions.docx` - the analysis question set
-- `docs/guide-book.pdf` - the methodology guide
 
 ## How to open
 Open `HR Analytics Dashboard.pbix` in Power BI Desktop (free), or read `docs/presentation.pdf` for the walkthrough.
