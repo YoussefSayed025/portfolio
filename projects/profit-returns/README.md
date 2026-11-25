@@ -1,4 +1,4 @@
-# Profit and return analysis (NTI graduation project)
+# Profit and return analysis
 
 Profitability and product-return analysis for a retail chain, combining Python, Power Query and Power BI. Strong sales figures hid a real profitability problem; the project diagnoses where profit leaks and quantifies the damage from returns.
 
@@ -21,17 +21,17 @@ Python (cleaning, merging, EDA) -> Power Query (shaping) -> Power BI (calendar-t
 - Track return reasons at the point of sale and tighten return policy in the worst categories to bring down the $17.42K annual loss.
 
 ## Contents
-- `grad-project.pbix` - the Power BI report (8 pages)
-- `src/grad-project.ipynb` - the Python cleaning and analysis notebook
+- `Profit Returns Dashboard.pbix` - the Power BI report (8 pages)
+- `src/profit-returns-analysis.ipynb` - the Python cleaning and analysis notebook
 - `docs/presentation.pdf` - the 54-slide project deck
 - `docs/data-dictionary.md` - the source tables, column by column
 - `data/` - the source data: Sales 1997.csv, Sales 1998.csv, Sales 1999.csv, Customers.csv, Products.csv, Stores.csv, Region.csv, Returns.csv
 - `pages/` - dashboard page screenshots
 
 ## How to run
-1. Keep the CSVs in `data/` and update the paths at the top of `src/grad-project.ipynb`.
+1. Keep the CSVs in `data/` and update the paths at the top of `src/profit-returns-analysis.ipynb`.
 2. Run the notebook (pandas, numpy, seaborn, matplotlib, scikit-learn).
-3. Open `grad-project.pbix` in Power BI Desktop. No Power BI? Browse `pages/` or `docs/presentation.pdf`.
+3. Open `Profit Returns Dashboard.pbix` in Power BI Desktop. No Power BI? Browse `pages/` or `docs/presentation.pdf`.
 
 Team AdventureWorks analysis repo: https://github.com/mostafahossam-21/DEPI-Graduation-Project_AdventureWorks_Analysis
 
